@@ -15,8 +15,8 @@ Press **Alt+Shift+W** (or the gold pin in the Nexus QuickAccess bar) to open the
   - Jumping puzzles (67), adventures, mini dungeons (22/22), and collections
   - Services — Mystic Forge, Trading Post, bank, crafting stations, merchants, laurel merchants
   - Guild missions (Rush, Challenge, Puzzle) and mount races
-  - Regions and expansion maps, including Castora
-
+  - Regions and expansion maps
+    
 Results are sorted with same-map results first, so the closest match to where you are shows up at the top.
 
 ## Daily info
@@ -24,7 +24,7 @@ Results are sorted with same-map results first, so the closest match to where yo
 When the search box is empty, the window shows three sections:
 
 - **Daily Pact Supply Network Agents** — today's 6 agents, in order, with a **Copy daily list** button that copies all 6 chat codes as one line (71 characters, fits in chat). Locations change at 08:00 UTC / 00:00 PST. Search `daily psna` or `psna tuesday` for a specific day.
-- **Map Bonus Rewards — Week N** — the top 5 Central Tyria maps for the current week, ranked by the value of their bonus track. Click a row to copy its entry waypoint. The week is computed from the date (rotates Thursdays at 20:00 UTC, 8-week cycle). No prices are shown — just the rank, the map, and its headline reward.
+- **Map Bonus Rewards — Week N** — the top 5 Central Tyria maps for the current week, ranked by the value of their bonus track. Click a row to copy its entry waypoint. The week is computed from the date (rotates Thursdays at 20:00 UTC, 8-week cycle). 
 - **Rifts This Week** — the 3 rotating rift maps for the current week (11-week cycle), plus the 11 always-available rift maps grouped by type. Rifts spawn randomly on each map, so use your Scan for Rift keybind once you're there.
 
 ## Install
@@ -65,12 +65,4 @@ cmake --build build --config Release
 - Search is offline and runs entirely in the addon. There are no network calls and no game-memory access — the only live data is your current map and position, read through MumbleLink, which is how the same-map sorting works.
 - Run `python3 tools/test_search.py` to check the search against the dataset (186 cases).
 
-## Known limits
-
-- Hero Points aren't searchable — the official API gives them no name or chat link.
-- Map Bonus rankings come from a price snapshot, so the order can drift as Trading Post prices move. The tracks themselves never change.
-- Rift Set 5 (Iron Marches, Verdant Brink, Bitterfrost Frontier) is computed from the published rotation, not confirmed live — check the in-game Weekly Rift Hunting panel.
-
-## License
-
-MIT — see [LICENSE](LICENSE). Dear ImGui, MumbleLink, and the Nexus API are bundled under `third_party/` with their own licenses.
+e Nexus API are bundled under `third_party/` with their own licenses.
