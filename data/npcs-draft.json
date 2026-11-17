@@ -1,0 +1,171 @@
+{
+ "_note": "DRAFT ONLY - NPC tags for GW2 Waypoint Search, NOT yet merged into data/tags.json. Research task 2026-11-17. Each entry maps a named NPC to its nearest waypoint, chat_link looked up in data/pois.json by (name, map) - never invented. NOTE: waypoint names are NOT unique - 'Trader\\'s Forum Waypoint' exists in both Lion's Arch [&BBAEAAA=] and Memory of Old Lion's Arch [&BIINAAA=], so lookups must be by (name, map). Method per entry is stated. NPCs that could NOT be verified are listed under 'unverified' and are NOT included as tags.",
+ "generated": "2026-11-17",
+ "source": "GW2 Wiki (wiki.guildwars2.com) via api.php - NPC infobox 'coordinates' (continent coords, same system as data/pois.json) + 'Location' section map; nearest waypoint = nearest waypoint in the SAME map by Euclidean distance. Cross-check: Scholar Tholin [52142,34960] -> Krongar Waypoint 299 units. WARNING found during research: nearest waypoint OVERALL (ignoring map) is WRONG - Tholin's overall-nearest is Quarry Waypoint in the Sorrow's Embrace dungeon map (287 units, overlapping continent coords, unreachable). Same-map restriction is mandatory. Single-waypoint maps are unambiguous by construction.",
+ "tags": [
+  {
+   "npc": "Miyani",
+   "service": "Mystic Forge",
+   "wiki_map": "Lion's Arch",
+   "npc_coordinates": [
+    49044.8,
+    30891.9
+   ],
+   "nearest_waypoint": "Trader's Forum Waypoint",
+   "waypoint_map": "Lion's Arch",
+   "chat_link": "[&BBAEAAA=]",
+   "distance_units": 27,
+   "method": "coordinates + same-map nearest; 2nd nearest is Gate Hub Plaza 423 units away"
+  },
+  {
+   "npc": "Zommoros",
+   "service": "Mystic Forge (djinn inside the Forge)",
+   "wiki_map": "Lion's Arch",
+   "npc_coordinates": null,
+   "nearest_waypoint": "Trader's Forum Waypoint",
+   "waypoint_map": "Lion's Arch",
+   "chat_link": "[&BBAEAAA=]",
+   "distance_units": null,
+   "method": "MANUAL: wiki page says Zommoros 'resides within the Mystic Forge'; Miyani (forge attendant, coordinates verified) is at Trader's Forum, 27 units from that waypoint - same location"
+  },
+  {
+   "npc": "Brass Nettlemoor",
+   "service": "Laurel Merchant",
+   "wiki_map": "Eye of the North",
+   "npc_coordinates": [
+    57879.4,
+    21735.0
+   ],
+   "nearest_waypoint": "Eye of the North Waypoint",
+   "waypoint_map": "Eye of the North",
+   "chat_link": "[&BAkMAAA=]",
+   "distance_units": 62,
+   "method": "coordinates + same-map nearest; only waypoint in that map"
+  },
+  {
+   "npc": "Azarr Softhoof",
+   "service": "Laurel Merchant",
+   "wiki_map": "Dry Top",
+   "npc_coordinates": [
+    36781.0,
+    32342.0
+   ],
+   "nearest_waypoint": "Vine Bridge Waypoint",
+   "waypoint_map": "Dry Top",
+   "chat_link": "[&BIYHAAA=]",
+   "distance_units": 364,
+   "method": "coordinates + same-map nearest; 2nd nearest Repair Station 419 units away"
+  },
+  {
+   "npc": "Scholar Tholin",
+   "service": "Renown Heart / Karma merchant",
+   "wiki_map": "Timberline Falls",
+   "npc_coordinates": [
+    52142.0,
+    34960.0
+   ],
+   "nearest_waypoint": "Krongar Waypoint",
+   "waypoint_map": "Timberline Falls",
+   "chat_link": "[&BFICAAA=]",
+   "distance_units": 299,
+   "method": "coordinates + same-map nearest; 2nd nearest Gentle River 509 units away"
+  },
+  {
+   "npc": "Inigo",
+   "service": "Master armorsmith",
+   "wiki_map": "Plains of Ashford",
+   "npc_coordinates": [
+    59720.2,
+    31206.7
+   ],
+   "nearest_waypoint": "Ashford Waypoint",
+   "waypoint_map": "Plains of Ashford",
+   "chat_link": "[&BIQBAAA=]",
+   "distance_units": 224,
+   "method": "coordinates + same-map nearest; 2nd nearest Adorea 454 units away"
+  },
+  {
+   "npc": "Kriss",
+   "service": "Laurel Merchant",
+   "wiki_map": "The Wizard's Tower",
+   "npc_coordinates": null,
+   "nearest_waypoint": "Tower Courtyard Waypoint",
+   "waypoint_map": "The Wizard's Tower",
+   "chat_link": "[&BB8OAAA=]",
+   "distance_units": null,
+   "method": "NO coordinates in infobox; only waypoint in that map, so unambiguous by construction - still needs a human to confirm Kriss stands near it"
+  },
+  {
+   "npc": "Merit Professor Rizzak",
+   "service": "Laurel Merchant",
+   "wiki_map": "Mistlock Sanctuary",
+   "npc_coordinates": null,
+   "nearest_waypoint": "Mistlock Sanctuary Waypoint",
+   "waypoint_map": "Mistlock Sanctuary",
+   "chat_link": "[&BPMJAAA=]",
+   "distance_units": null,
+   "method": "NO coordinates in infobox; only waypoint in that map, so unambiguous by construction - still needs a human to confirm"
+  },
+  {
+   "npc": "Guest Elder (Laurel Merchant)",
+   "service": "Laurel Merchant",
+   "wiki_map": "Thousand Seas Pavilion",
+   "npc_coordinates": null,
+   "nearest_waypoint": "Thousand Seas Pavilion Waypoint",
+   "waypoint_map": "Thousand Seas Pavilion",
+   "chat_link": "[&BHkNAAA=]",
+   "distance_units": null,
+   "method": "NO coordinates in infobox; only waypoint in that map, so unambiguous by construction - still needs a human to confirm"
+  }
+ ],
+ "unverified_not_included": [
+  {
+   "npc": "Aori Brightcrest",
+   "service": "Laurel Merchant",
+   "wiki_map": "Armistice Bastion",
+   "reason": "No coordinates in infobox; map has 3 waypoints (Gladiator Pits, Lounge Atrium, Mist Portals) - cannot pick one without NPC coords or manual reading"
+  },
+  {
+   "npc": "Jale",
+   "service": "Laurel Merchant",
+   "wiki_map": "Crystal Oasis",
+   "reason": "No coordinates; map has 3 waypoints (Amnoon, Destiny's Gorge, Temple of Kormir)"
+  },
+  {
+   "npc": "Jocasta",
+   "service": "Laurel Merchant",
+   "wiki_map": "Heart of the Mists",
+   "reason": "No coordinates; map has 6 waypoints/POIs"
+  },
+  {
+   "npc": "Nicola (laurel merchant)",
+   "service": "Laurel Merchant",
+   "wiki_map": "Heart of the Mists",
+   "reason": "No coordinates; map has 6 waypoints/POIs"
+  },
+  {
+   "npc": "Varka",
+   "service": "Laurel Merchant",
+   "wiki_map": "Ember Bay",
+   "reason": "No coordinates; map has 4 waypoints"
+  },
+  {
+   "npc": "Hagna",
+   "service": "Master armorsmith",
+   "wiki_map": null,
+   "reason": "No coordinates and no Location section parsed - page may be a disambiguation / multi-location NPC"
+  },
+  {
+   "npc": "Nigel Lawden",
+   "service": "Master armorsmith",
+   "wiki_map": "Verdant Brink",
+   "reason": "No coordinates; map has 8 waypoints"
+  },
+  {
+   "npc": "Dungeon Merchant",
+   "service": null,
+   "wiki_map": null,
+   "reason": "Generic page, not a single NPC - no coordinates/location"
+  }
+ ]
+}

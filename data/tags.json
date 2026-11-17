@@ -1,0 +1,5434 @@
+{
+ "_note": "Curated keyword tags for GW2 Waypoint Search v1.2. These are NOT new entries and NOT invented nodes: each tag is attached to a real waypoint/POI that already exists in data/pois.json, keyed by its verified API chat_link. A tag means 'this is the published start waypoint for this gathering route'. Do not add a tag unless you can point at the source for that start point. v1.7: PSNA (Pact Supply Network Agents) — 42 agent-day slots, 40 unique entries, 6 already tagged (34 new). Weekday table from Doncpauli (fetched live 2026-11-17), cross-checked against the GW2 Wiki PSNA table (2025-07-27 to 2025-08-03) and a gw2timer-sourced gist; all three agree on the weekday mapping. 4 gist codes rejected after dataset check (see tools/add_v17_psna.py): Mehem Sunday [&BIsHAAA=] is Oasis not Azarr's Arbor; Fox Thursday [&BE8AAAA=] is Seraph Protectors not Wendon Waypoint; Yana Thursday [&BP0DAAA=] is Armada Harbor not Fort Trinity; Verma Thursday [&BOQBAAA=] is Old Piken Ruins not Scalecatch. 20 of the 42 codes are landmark POIs, tagged as-is. Recipes are random per vendor per day and are NOT tagged.",
+ "generated": "2026-11-17",
+ "source": "Lady Elyssa's Guides, README.md, Gathering section (https://github.com/LadyElyssa/LadyElyssaTacoTrails), re-checked 2026-11-16/17. All 21 chat_links below were verified to exist in data/pois.json with the name/map shown. One exception to note: Spearmarshal's Lament [&BAEKAAA=] is a landmark POI in the API (map 'Enemy of My Enemy: The Beastmarshal'), not a waypoint — Lady Elyssa lists it as the Rich Orichalcum start for Domain of Vabbi (requires Spearmarshal's Plea), so it is tagged as-is with its API map name, not re-labelled as a waypoint in Domain of Vabbi. World bosses: GW2 Wiki 'World boss' page (schedule + list, fetched 2026-11-16/17) plus per-boss guides (Tyria Pulse nearest-waypoint codes, GameRant, GuildWarsHub, DoncPauli, Potterer's Guide, Hardstuck, Cheshire, GuildJen, Steam Tangled Depths guide) — see README for the per-boss source notes. NOTE: the wiki Event Timers page itself could not be fetched (HTTP 403 on 2026-11-17, not retried), so the timer's non-boss meta events are NOT in this list yet — see README 'Not yet added'. v1.3: Event Timers metas via Cellofrag timer index (wiki v5.4 data, fetched 2026-11-17) + per-event guides; dungeons via GW2 F2P dungeon list (waypoint codes) + wiki Raid/Strike pages; JPs via Dulfy JP guide locations; services via GuildWarsHub bank/TP ranking + forum guides; chest runs via Lady Elyssa README Chest Run section. Wiki Event Timers page itself still returns HTTP 403 (2026-11-17) — see README 'Not yet added'. v1.4: multi-spot tags — flax via GameRant Best Flax Farming Locations (2024-11-06) + wiki Flax + Metabattle; rich mithril/orichalcum via wiki vein pages + Almars spawn list + Strikingly guide; quartz via forum quartz guide; copper/silver/gold/iron/platinum/wood map hubs via GW2 Life crafting-material lists + wiki vein/tree pages; services via Allakhazam Crafting wiki + wiki Laurel Merchant page + everylastrecipe Mystic Forge guide.",
+ "tags": [
+  {
+   "chat_link": "[&BOAHAAA=]",
+   "map": "Verdant Brink",
+   "name": "Jaka Itzel Waypoint",
+   "tags": [
+    "flax",
+    "flax farm",
+    "flax seeds",
+    "gathering",
+    "verdant brink night",
+    "night bosses",
+    "verdant brink",
+    "meta event",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Verdant Brink night meta (5 night bosses, map-wide); Jaka Itzel is the central hub waypoint."
+  },
+  {
+   "chat_link": "[&BHoHAAA=]",
+   "map": "Dry Top",
+   "name": "Prosperity Waypoint",
+   "tags": [
+    "quartz",
+    "quartz crystal",
+    "gathering",
+    "dry top",
+    "sandstorm",
+    "crash site",
+    "meta event",
+    "prospect valley crash site",
+    "jumping puzzle",
+    "jp",
+    "living world jumping puzzle",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Dry Top meta (Crash Site / sandstorm cycle); Prosperity is the central Dry Top waypoint. Prospect Valley Crash Site JP at Crash Site (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BJMKAAA=]",
+   "map": "Crystal Oasis",
+   "name": "Destiny's Gorge Waypoint",
+   "tags": [
+    "quartz",
+    "quartz crystal",
+    "rich quartz",
+    "rich quartz crystal",
+    "gathering"
+   ]
+  },
+  {
+   "chat_link": "[&BDwBAAA=]",
+   "map": "Caledon Forest",
+   "name": "Caledon Haven Waypoint",
+   "tags": [
+    "rich copper",
+    "copper",
+    "copper ore",
+    "ore",
+    "gathering"
+   ]
+  },
+  {
+   "chat_link": "[&BNgAAAA=]",
+   "map": "Fields of Ruin",
+   "name": "Rosko's Campsite Waypoint",
+   "tags": [
+    "rich silver",
+    "silver",
+    "silver ore",
+    "ore",
+    "gathering",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "Map Bonus Rewards suggested entry waypoint (central hub) — v1.9. Not a wiki-published start; the track rewards are for the whole map."
+  },
+  {
+   "chat_link": "[&BLAAAAA=]",
+   "map": "Harathi Hinterlands",
+   "name": "Junction Camp Waypoint",
+   "tags": [
+    "rich gold",
+    "gold",
+    "gold ore",
+    "ore",
+    "gathering",
+    "rich iron",
+    "iron",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "Map hub: Rich Iron Vein spawns in Harathi Hinterlands (GW2 Life; wiki Rich Iron Vein)."
+  },
+  {
+   "chat_link": "[&BEsBAAA=]",
+   "map": "Fields of Ruin",
+   "name": "Helliot Mine Waypoint",
+   "tags": [
+    "rich iron",
+    "iron",
+    "iron ore",
+    "ore",
+    "gathering",
+    "guild mission",
+    "guild missions",
+    "guild challenge",
+    "branded for termination",
+    "branded for termination guild challenge",
+    "guild challenge fields of ruin"
+   ],
+   "note": "Branded for Termination guild challenge, Fields of Ruin — Helliot Mine Waypoint is the wiki closest waypoint (Varim's Run)."
+  },
+  {
+   "chat_link": "[&BMkBAAA=]",
+   "map": "Sparkfly Fen",
+   "name": "Ocean's Gullet Waypoint",
+   "tags": [
+    "rich platinum",
+    "platinum",
+    "platinum ore",
+    "ore",
+    "gathering",
+    "verarium delves",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Verarium Delves JP (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BEAFAAA=]",
+   "map": "Fireheart Rise",
+   "name": "The Citadel of Flame Waypoint",
+   "tags": [
+    "rich mithril",
+    "mithril",
+    "mithril ore",
+    "ore",
+    "gathering",
+    "citadel of flame dungeon",
+    "dungeon",
+    "cof",
+    "rich platinum",
+    "platinum",
+    "hard wood",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "Dungeon entrance waypoint (also Rich Mithril, already tagged)."
+  },
+  {
+   "chat_link": "[&BAEKAAA=]",
+   "map": "Enemy of My Enemy: The Beastmarshal",
+   "name": "Spearmarshal's Lament",
+   "note": "Lady Elyssa lists this as the Rich Orichalcum start for Domain of Vabbi (requires Spearmarshal's Plea); the API records it as a landmark on this story-instance map name.",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "orichalcum ore",
+    "ore",
+    "gathering"
+   ]
+  },
+  {
+   "chat_link": "[&BMEKAAA=]",
+   "map": "The Desolation",
+   "name": "Lair of the Forgotten Waypoint",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "orichalcum ore",
+    "ore",
+    "gathering"
+   ]
+  },
+  {
+   "chat_link": "[&BPgCAAA=]",
+   "map": "Straits of Devastation",
+   "name": "Waywarde Waypoint",
+   "tags": [
+    "elder wood",
+    "elder wood log",
+    "wood",
+    "gathering"
+   ]
+  },
+  {
+   "chat_link": "[&BKYCAAA=]",
+   "map": "Malchor's Leap",
+   "name": "Pagga's Waypoint",
+   "tags": [
+    "elder wood",
+    "elder wood log",
+    "wood",
+    "gathering",
+    "rich orichalcum",
+    "orichalcum",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "Rich Orichalcum nodes above and west of Pagga's Waypoint, Malchor's Leap (Almars spawn list)."
+  },
+  {
+   "chat_link": "[&BO8JAAA=]",
+   "map": "Siren's Landing",
+   "name": "Camp Reclamation Waypoint",
+   "tags": [
+    "elder wood",
+    "elder wood log",
+    "wood",
+    "gathering",
+    "abaddon's ascent",
+    "abaddon ascent",
+    "jumping puzzle",
+    "jp",
+    "living world jumping puzzle"
+   ],
+   "note": "Abaddon's Ascent JP (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BM4CAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Ashen Waypoint",
+   "tags": [
+    "hard wood",
+    "hard wood log",
+    "wood",
+    "gathering",
+    "rich platinum",
+    "platinum"
+   ],
+   "note": "Map hub: Rich Platinum Vein spawns in Mount Maelstrom (GW2 Life; wiki Rich Platinum Vein)."
+  },
+  {
+   "chat_link": "[&BLMDAAA=]",
+   "map": "Sparkfly Fen",
+   "name": "Caer Brier Waypoint",
+   "tags": [
+    "hard wood",
+    "hard wood log",
+    "wood",
+    "gathering"
+   ]
+  },
+  {
+   "chat_link": "[&BFACAAA=]",
+   "map": "Timberline Falls",
+   "name": "Gentle River Waypoint",
+   "tags": [
+    "hard wood",
+    "hard wood log",
+    "wood",
+    "gathering",
+    "rich platinum",
+    "platinum",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles gentle river",
+    "diving goggles gentle river",
+    "dive master timberline falls",
+    "diving goggles timberline falls",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "Map hub: Rich Platinum Vein spawns in Timberline Falls (GW2 Life; wiki Rich Platinum Vein). Dive Master #31: Timberline Falls #1 — Gentle River diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BGICAAA=]",
+   "map": "Dredgehaunt Cliffs",
+   "name": "Graupel Waypoint",
+   "tags": [
+    "seasoned wood",
+    "seasoned wood log",
+    "wood",
+    "gathering",
+    "rich gold",
+    "gold",
+    "rich iron",
+    "iron"
+   ],
+   "note": "Map hub: Rich Gold Vein and Rich Iron Vein spawn in Dredgehaunt Cliffs (GW2 Life; wiki vein pages)."
+  },
+  {
+   "chat_link": "[&BKgAAAA=]",
+   "map": "Harathi Hinterlands",
+   "name": "Wynchona Rally Point Waypoint",
+   "tags": [
+    "seasoned wood",
+    "seasoned wood log",
+    "wood",
+    "gathering"
+   ]
+  },
+  {
+   "chat_link": "[&BF4BAAA=]",
+   "map": "Diessa Plateau",
+   "name": "Oldgate Waypoint",
+   "tags": [
+    "soft wood",
+    "soft wood log",
+    "wood",
+    "gathering"
+   ]
+  },
+  {
+   "chat_link": "[&BFABAAA=]",
+   "map": "Fields of Ruin",
+   "name": "Forlorn Gate Waypoint",
+   "tags": [
+    "soft wood",
+    "soft wood log",
+    "wood",
+    "gathering",
+    "rich gold",
+    "gold"
+   ],
+   "note": "Map hub: Rich Gold Vein spawns in Fields of Ruin (GW2 Life; wiki Rich Gold Vein)."
+  },
+  {
+   "chat_link": "[&BPcAAAA=]",
+   "map": "Queensdale",
+   "name": "Swamplost Haven Waypoint",
+   "note": "Nearest waypoint to the Shadow Behemoth spawn per Tyria Pulse / GameRant; Godslost Waypoint is the other nearby option and is also tagged.",
+   "tags": [
+    "shadow behemoth",
+    "behemoth",
+    "world boss"
+   ]
+  },
+  {
+   "chat_link": "[&BPwAAAA=]",
+   "map": "Queensdale",
+   "name": "Godslost Waypoint",
+   "note": "The waypoint most players name for Shadow Behemoth (map chat answer); Swamplost Haven is also tagged. Demongrub Pits JP (wiki Jumping puzzle list).",
+   "tags": [
+    "shadow behemoth",
+    "behemoth",
+    "world boss",
+    "demongrub pits",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle"
+   ]
+  },
+  {
+   "chat_link": "[&BEcAAAA=]",
+   "map": "Metrica Province",
+   "name": "Muridian Waypoint",
+   "note": "Potterer's Guide: nearest waypoint for the Fire Elemental at Thaumanova Reactor. An older forum list names Survivor's Encampment instead.",
+   "tags": [
+    "fire elemental",
+    "world boss"
+   ]
+  },
+  {
+   "chat_link": "[&BEEFAAA=]",
+   "map": "Caledon Forest",
+   "name": "Twilight Arbor Waypoint",
+   "note": "Nearest waypoint for Great Jungle Wurm (Wychmire Swamp) per Tyria Pulse / GameRant. Falias Thorp is closer but frequently contested.",
+   "tags": [
+    "great jungle wurm",
+    "jungle wurm",
+    "wurm",
+    "world boss",
+    "twilight arbor dungeon",
+    "dungeon",
+    "ta"
+   ]
+  },
+  {
+   "chat_link": "[&BNUGAAA=]",
+   "map": "Southsun Cove",
+   "name": "Pearl Islet Waypoint",
+   "note": "Karka Queen, Driftglass Springs (wiki timer location) per GameRant. The queen spawns near one of four settlements; Camp Karka Waypoint is the other commonly used option. Under New Management JP east of the waypoint (wiki Jumping puzzle list). Shoreside Sprint, Roller Beetle Time Trial (new Southsun course; Evon Gnashblade letter: talk to Sareb in Southsun Cove; Pearl Islet is the Southsun waypoint in the wiki's list — derived). PSNA — Lady Derwena (Kryta), Friday: Pearl Islet Waypoint, Southsun Cove. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC.",
+   "tags": [
+    "karka queen",
+    "karka",
+    "world boss",
+    "rich mithril",
+    "mithril",
+    "gathering",
+    "elder wood",
+    "under new management",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "shoreside sprint",
+    "adventure",
+    "roller beetle adventure",
+    "shoreside sprint southsun cove",
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "lady derwena",
+    "derwena",
+    "psna friday",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ]
+  },
+  {
+   "chat_link": "[&BNABAAA=]",
+   "map": "Sparkfly Fen",
+   "name": "Splintered Coast Waypoint",
+   "tags": [
+    "tequatl",
+    "tequatl the sunless",
+    "teq",
+    "world boss"
+   ]
+  },
+  {
+   "chat_link": "[&BE4DAAA=]",
+   "map": "Blazeridge Steppes",
+   "name": "Lowland Burns Waypoint",
+   "tags": [
+    "shatterer",
+    "the shatterer",
+    "world boss",
+    "rich gold",
+    "gold",
+    "rich iron",
+    "iron",
+    "gathering",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "Map hub: Rich Gold Vein and Rich Iron Vein spawn in Blazeridge Steppes (GW2 Life; wiki vein pages)."
+  },
+  {
+   "chat_link": "[&BHoCAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Earthshake Waypoint",
+   "note": "Claw of Jormag, Frostwalk Tundra. Slough of Despond Waypoint is the other nearby option.",
+   "tags": [
+    "claw of jormag",
+    "claw",
+    "jormag",
+    "world boss",
+    "rich orichalcum",
+    "orichalcum",
+    "gathering",
+    "elder wood",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ]
+  },
+  {
+   "chat_link": "[&BM0CAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Maelstrom's Waypoint",
+   "tags": [
+    "megadestroyer",
+    "mega destroyer",
+    "world boss",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Map Bonus Rewards suggested entry waypoint (central hub) — v1.9. Not a wiki-published start; the track rewards are for the whole map."
+  },
+  {
+   "chat_link": "[&BLEAAAA=]",
+   "map": "Harathi Hinterlands",
+   "name": "Cloven Hoof Waypoint",
+   "note": "Modniir Ulgoth, Modniir Gorge. GuildWarsHub / DoncPauli name Cloven Hoof; Tyria Pulse lists Junction Camp Waypoint as nearest — Cloven Hoof is the practical, guide-recommended one.",
+   "tags": [
+    "modniir ulgoth",
+    "ulgoth",
+    "modniir",
+    "world boss"
+   ]
+  },
+  {
+   "chat_link": "[&BNQCAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Old Sledge Site Waypoint",
+   "tags": [
+    "golem mark ii",
+    "golem mark 2",
+    "mark ii",
+    "inquest golem",
+    "world boss"
+   ]
+  },
+  {
+   "chat_link": "[&BKoBAAA=]",
+   "map": "Bloodtide Coast",
+   "name": "Firthside Vigil Waypoint",
+   "note": "Triple Trouble main / gather waypoint (Crimson head). Per-head waypoints: Amber = Whisperwill, Cobalt = Jelako.",
+   "tags": [
+    "triple trouble",
+    "tt",
+    "evolved jungle wurm",
+    "triple trouble wurm",
+    "crimson wurm",
+    "world boss",
+    "rich platinum",
+    "platinum",
+    "gathering",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ]
+  },
+  {
+   "chat_link": "[&BLABAAA=]",
+   "map": "Bloodtide Coast",
+   "name": "Whisperwill Waypoint",
+   "tags": [
+    "triple trouble amber",
+    "amber wurm",
+    "world boss"
+   ]
+  },
+  {
+   "chat_link": "[&BK8BAAA=]",
+   "map": "Bloodtide Coast",
+   "name": "Jelako Waypoint",
+   "tags": [
+    "triple trouble cobalt",
+    "cobalt wurm",
+    "world boss"
+   ]
+  },
+  {
+   "chat_link": "[&BKgBAAA=]",
+   "map": "Bloodtide Coast",
+   "name": "Laughing Gull Waypoint",
+   "tags": [
+    "admiral taidha covington",
+    "taidha",
+    "taidha covington",
+    "world boss"
+   ]
+  },
+  {
+   "chat_link": "[&BMIDAAA=]",
+   "map": "Wayfarer Foothills",
+   "name": "Krennak's Homestead Waypoint",
+   "note": "Svanir Shaman Chief / The Frozen Maw meta begins at Krennak's Homestead Waypoint.",
+   "tags": [
+    "svanir shaman chief",
+    "svanir shaman",
+    "frozen maw",
+    "world boss"
+   ]
+  },
+  {
+   "chat_link": "[&BDkMAAA=]",
+   "map": "Bjora Marches",
+   "name": "Still Waters Speaking Waypoint",
+   "note": "Drakkar meta starts at Still Waters Speaking Waypoint. One guide cites [&BEUMAAA=], which is the Still Waters Speaking landmark POI, not the waypoint — the waypoint code is [&BDkMAAA=].",
+   "tags": [
+    "drakkar",
+    "world boss"
+   ]
+  },
+  {
+   "chat_link": "[&BPUHAAA=]",
+   "map": "Tangled Depths",
+   "name": "Ley-Line Confluence Waypoint",
+   "note": "Chak Gerent / King of the Jungle: the fight is at Ley-Line Confluence, the centre all four lanes lead to. Haywire Punch-o-Matic Battle + The Ley-Line Run adventures (wiki Getting there: Ley-Line Confluence is the no-mastery / first-listed route).",
+   "tags": [
+    "chak gerent",
+    "gerent",
+    "king of the jungle",
+    "world boss",
+    "haywire punch-o-matic battle",
+    "adventure",
+    "hot adventure",
+    "haywire punch-o-matic battle tangled depths",
+    "the ley-line run",
+    "the ley-line run tangled depths",
+    "ley-line run",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ]
+  },
+  {
+   "chat_link": "[&BAIIAAA=]",
+   "map": "Auric Basin",
+   "name": "Southwatch Waypoint",
+   "note": "Octovine / Battle in Tarir: GuildJen's Auric Basin guide lists Southwatch as the Octovine waypoint. The other three lanes have their own waypoints, also tagged. A Fungus Among Us adventure (GuildJen: start at Southwatch Waypoint, head west toward Griffonfall).",
+   "tags": [
+    "octovine",
+    "battle in tarir",
+    "tarir",
+    "world boss",
+    "a fungus among us",
+    "adventure",
+    "hot adventure",
+    "a fungus among us auric basin",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ]
+  },
+  {
+   "chat_link": "[&BN0HAAA=]",
+   "map": "Auric Basin",
+   "name": "Northwatch Waypoint",
+   "tags": [
+    "octovine north",
+    "battle in tarir",
+    "world boss",
+    "on wings of gold",
+    "adventure",
+    "hot adventure",
+    "on wings of gold auric basin"
+   ],
+   "note": "On Wings of Gold adventure (GuildJen: start at Northwatch Waypoint, through the Northgate, east along the uppermost balcony)."
+  },
+  {
+   "chat_link": "[&BGwIAAA=]",
+   "map": "Auric Basin",
+   "name": "Eastwatch Waypoint",
+   "tags": [
+    "octovine east",
+    "battle in tarir",
+    "world boss",
+    "flax",
+    "flax farm",
+    "flax seeds",
+    "gathering"
+   ],
+   "note": "Flax around Eastwatch Waypoint, Auric Basin (farming guide; wiki Flax lists flax at Eastwatch Bluff)."
+  },
+  {
+   "chat_link": "[&BAYIAAA=]",
+   "map": "Auric Basin",
+   "name": "Westwatch Waypoint",
+   "tags": [
+    "octovine west",
+    "battle in tarir",
+    "world boss",
+    "flax",
+    "flax farm",
+    "flax seeds",
+    "gathering",
+    "highest gear",
+    "jumping puzzle",
+    "jp",
+    "hot jumping puzzle",
+    "mastery insight"
+   ],
+   "note": "Flax around Westwatch Waypoint, Auric Basin (farming guide; wiki Flax lists flax at Westwatch Patch). Highest Gear JP, past the Ancient Golem Part hero challenge (wiki Jumping puzzle list; mastery insight)."
+  },
+  {
+   "chat_link": "[&BMYHAAA=]",
+   "map": "Auric Basin",
+   "name": "Forgotten City Waypoint",
+   "tags": [
+    "tarir",
+    "egg bearer",
+    "jumping puzzle",
+    "jp",
+    "hot jumping puzzle",
+    "mastery insight",
+    "fallen masks",
+    "adventure",
+    "hot adventure",
+    "fallen masks auric basin",
+    "sanctum scramble",
+    "sanctum scramble auric basin",
+    "on wings of gold",
+    "on wings of gold auric basin"
+   ],
+   "note": "Egg Bearer JP in the Inner Chamber of Tarir (wiki Jumping puzzle list; mastery insight). Fallen Masks + Sanctum Scramble adventures (GuildJen). Also On Wings of Gold alternate route (ProjektDyad: northeast from Forgotten City; GuildJen primary is Northwatch)."
+  },
+  {
+   "chat_link": "[&BBAIAAA=]",
+   "map": "Dragon's Stand",
+   "name": "Pact Base Camp Waypoint",
+   "tags": [
+    "dragon's stand",
+    "against the mouth of mordremoth",
+    "mouth of mordremoth",
+    "mordremoth",
+    "meta event"
+   ],
+   "note": "Dragon's Stand meta staging: Preparation @ [&BBAIAAA=] (InGameTimer)."
+  },
+  {
+   "chat_link": "[&BH8HAAA=]",
+   "map": "The Silverwastes",
+   "name": "Camp Resolve Waypoint",
+   "tags": [
+    "silverwastes",
+    "riba",
+    "mordrem vinewrath",
+    "vinewrath",
+    "meta event",
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "mehem the traveled",
+    "mehem",
+    "psna tuesday",
+    "psna saturday"
+   ],
+   "note": "RIBA cycle: Camp Resolve is the primary waypoint (Hardstuck RIBA guide; GuildWarsHub). PSNA — Mehem the Traveled (Maguuma Wastes), Tuesday: Camp Resolve Waypoint, The Silverwastes. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. PSNA — Mehem the Traveled (Maguuma Wastes), Saturday: Camp Resolve Waypoint, The Silverwastes. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BOQAAAA=]",
+   "map": "Gendarran Fields",
+   "name": "Provern Shore Waypoint",
+   "tags": [
+    "ley-line anomaly",
+    "ley-line anomaly gendarran",
+    "anomaly",
+    "meta event",
+    "rich silver",
+    "silver",
+    "soft wood",
+    "gathering",
+    "lakeside loop",
+    "adventure",
+    "roller beetle adventure",
+    "lakeside loop gendarran fields",
+    "roller beetle race",
+    "mount race",
+    "lakeside loop race",
+    "roller beetle racing"
+   ],
+   "note": "Ley-Line Anomaly (Gendarran Fields rotation): timer code [&BOQAAAA=] IS Provern Shore Waypoint. Lakeside Loop, Roller Beetle Time Trial (MetaBattle: track AT Provern Shore — direct name match)."
+  },
+  {
+   "chat_link": "[&BK0JAAA=]",
+   "map": "Lake Doric",
+   "name": "Doric's Landing Waypoint",
+   "tags": [
+    "lake doric",
+    "queenslayer",
+    "meta event",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Lake Doric meta; Doric's Landing is the map's main entry waypoint."
+  },
+  {
+   "chat_link": "[&BLsKAAA=]",
+   "map": "Crystal Oasis",
+   "name": "Amnoon Waypoint",
+   "tags": [
+    "casino blitz",
+    "pinata",
+    "casino",
+    "meta event",
+    "laurel merchant",
+    "laurel vendor",
+    "laurel",
+    "services",
+    "refugee supply run",
+    "adventure",
+    "pof adventure",
+    "refugee supply run crystal oasis",
+    "griffon master",
+    "griffon master crystal oasis",
+    "poultry",
+    "slab of poultry meat",
+    "poultry meat",
+    "poultry farm",
+    "aggressive vulture",
+    "vulture",
+    "vultures",
+    "mount race",
+    "race to the finish",
+    "race to the finish crystal oasis",
+    "race to the finish crystal oasis mount race",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Casino Blitz / pinata meta takes place in Amnoon. Refugee Supply Run adventure (wiki: Free City of Amnoon area; start at the refugee camp in Amnoon — medium confidence, area listing). Griffon Master, Crystal Oasis (wiki: from Amnoon Waypoint, outside the Tomb of the Abandoned). | MATERIAL: Poultry: wiki Slab list — Veteran Aggressive Vulture in Free City of Amnoon (Crystal Oasis); Dragon Owl Gaming guide farms Aggressive Vultures around the Amnoon bazaar."
+  },
+  {
+   "chat_link": "[&BBoLAAA=]",
+   "map": "Domain of Istan",
+   "name": "Champion's Dawn Waypoint",
+   "tags": [
+    "palawadan",
+    "istan",
+    "meta event",
+    "griffon expert",
+    "adventure",
+    "living world adventure",
+    "griffon expert domain of istan",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Palawadan meta (Domain of Istan); Champion's Dawn is the Istan entry waypoint. Griffon Expert, Istan (AyinMaiden 'Lost to Time' route: right by the Istan Griffon Expert adventure, reached from Champion's Dawn heading east — medium confidence)."
+  },
+  {
+   "chat_link": "[&BKAMAAA=]",
+   "map": "Dragon's End",
+   "name": "Harvest Complex Waypoint",
+   "tags": [
+    "dragon's end",
+    "battle for the jade sea",
+    "soo-won",
+    "soo won",
+    "meta event"
+   ],
+   "note": "Battle for the Jade Sea (Soo-Won) staging at Harvest Complex, Dragon's End."
+  },
+  {
+   "chat_link": "[&BAoOAAA=]",
+   "map": "Amnytas",
+   "name": "Bastion of the Celestial Waypoint",
+   "tags": [
+    "defense of amnytas",
+    "amnytas",
+    "meta event"
+   ],
+   "note": "Defense of Amnytas meta, Amnytas."
+  },
+  {
+   "chat_link": "[&BA4OAAA=]",
+   "map": "Skywatch Archipelago",
+   "name": "Astral Ward Encampment Waypoint",
+   "tags": [
+    "skywatch",
+    "wizard's court",
+    "meta event",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Skywatch Archipelago meta (Defend the Wizard's Court); Astral Ward Encampment is the hub waypoint."
+  },
+  {
+   "chat_link": "[&BGEPAAA=]",
+   "map": "Bava Nisos",
+   "name": "Mantle's Arrival Waypoint",
+   "tags": [
+    "a titanic voyage",
+    "titanic voyage",
+    "bava nisos",
+    "meta event",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "titanspawn rift"
+   ],
+   "note": "A Titanic Voyage meta, Bava Nisos; Mantle's Arrival is the Bava entry waypoint."
+  },
+  {
+   "chat_link": "[&BCoPAAA=]",
+   "map": "Janthir Syntri",
+   "name": "Stricken Plains Waypoint",
+   "tags": [
+    "of mists and monsters",
+    "janthir syntri",
+    "meta event",
+    "swift skiffs",
+    "adventure",
+    "janthir adventure",
+    "swift skiffs janthir syntri",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "titanspawn rift"
+   ],
+   "note": "Of Mists and Monsters meta, Janthir Syntri; Stricken Plains is the main camp waypoint. Swift Skiffs, Janthir Syntri (GuildJen calls it 'River Mapping Adventure north of Stricken Plains Waypoint' — caveated: confirm this is the Swift Skiffs adventure before relying on it)."
+  },
+  {
+   "chat_link": "[&BAkMAAA=]",
+   "map": "Eye of the North",
+   "name": "Eye of the North Waypoint",
+   "tags": [
+    "dragonstorm",
+    "twisted marionette",
+    "battle for lion's arch",
+    "tower of nightmares",
+    "public instance",
+    "meta event",
+    "strike",
+    "strikes",
+    "icebrood saga strike",
+    "shiverpeaks pass strike",
+    "fraenir of jormag",
+    "boneskinner",
+    "whisper of jormag",
+    "cold war strike",
+    "forging steel",
+    "strike mission"
+   ],
+   "note": "Eye of the North public instances (Dragonstorm, Twisted Marionette, Battle for Lion's Arch, Tower of Nightmares) all start from the Eye of the North."
+  },
+  {
+   "chat_link": "[&BB8OAAA=]",
+   "map": "The Wizard's Tower",
+   "name": "Tower Courtyard Waypoint",
+   "tags": [
+    "convergence",
+    "outer nayos convergence",
+    "mount balrior convergence",
+    "nexus of eternity convergence",
+    "meta event",
+    "strike",
+    "strikes",
+    "secrets of the obscure strike",
+    "cosmic observatory",
+    "temple of febe",
+    "strike mission",
+    "fly by night",
+    "adventure",
+    "soto adventure",
+    "fly by night the wizard's tower",
+    "skyscale target practice",
+    "skyscale target practice the wizard's tower"
+   ],
+   "note": "Public Convergences are entered from the Wizard's Tower (Tower Courtyard). Fly by Night (GuildJen places it at the top of The Wizard's Court, directly above Tower Courtyard Waypoint — caveated, no source states it outright) + Skyscale Target Practice, Wizard's Tower (GuildJen: outside the tower, east of Tower Courtyard Waypoint)."
+  },
+  {
+   "chat_link": "[&BCANAAA=]",
+   "map": "New Kaineng City",
+   "name": "Lutgardis Plaza Waypoint",
+   "tags": [
+    "kaineng blackout",
+    "blackout",
+    "meta event",
+    "wind through the walls",
+    "jumping puzzle",
+    "jp",
+    "cantha jumping puzzle",
+    "eod jumping puzzle",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Kaineng Blackout meta, New Kaineng City; Lutgardis Plaza is the central Kaineng hub waypoint. Wind through the Walls JP (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BJ4MAAA=]",
+   "map": "Seitung Province",
+   "name": "Village Waypoint",
+   "tags": [
+    "aetherblade assault",
+    "seitung",
+    "meta event",
+    "spirit vestibule",
+    "mini dungeon",
+    "mini-dungeon",
+    "eod mini dungeon",
+    "spirit vestibule seitung province",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Aetherblade Assault meta, Seitung Province; Village is the Seitung hub waypoint. Spirit Vestibule mini dungeon (ProjektDyad, End of Dragons Mini Dungeons: 'The closest Waypoint is Village Waypoint — [&BJ4MAAA=]')."
+  },
+  {
+   "chat_link": "[&BIYBAAA=]",
+   "map": "Plains of Ashford",
+   "name": "Ascalonian Catacombs Waypoint",
+   "tags": [
+    "ascalonian catacombs",
+    "dungeon",
+    "ac"
+   ],
+   "note": "Dungeon entrance waypoint."
+  },
+  {
+   "chat_link": "[&BPoAAAA=]",
+   "map": "Queensdale",
+   "name": "Beetletun Waypoint",
+   "tags": [
+    "caudecus's manor",
+    "caudecus manor",
+    "dungeon",
+    "cm"
+   ],
+   "note": "Caudecus's Manor entrance is south of Beetletun; code [&BPoAAAA=] per GW2 F2P dungeon list."
+  },
+  {
+   "chat_link": "[&BFYCAAA=]",
+   "map": "Dredgehaunt Cliffs",
+   "name": "Tribulation Waypoint",
+   "tags": [
+    "sorrow's embrace",
+    "dungeon",
+    "se",
+    "tribulation rift scaffolding",
+    "tribulation caverns",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "Sorrow's Embrace entrance waypoint."
+  },
+  {
+   "chat_link": "[&BEMFAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Honor of the Waves Waypoint",
+   "tags": [
+    "honor of the waves",
+    "dungeon",
+    "hotw"
+   ],
+   "note": "Dungeon entrance waypoint."
+  },
+  {
+   "chat_link": "[&BEIFAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Crucible of Eternity Waypoint",
+   "tags": [
+    "crucible of eternity",
+    "dungeon",
+    "coe"
+   ],
+   "note": "Dungeon entrance waypoint."
+  },
+  {
+   "chat_link": "[&BCADAAA=]",
+   "map": "Cursed Shore",
+   "name": "Arah Waypoint",
+   "tags": [
+    "ruined city of arah",
+    "arah",
+    "dungeon"
+   ],
+   "note": "Dungeon entrance waypoint."
+  },
+  {
+   "chat_link": "[&BDAEAAA=]",
+   "map": "Lion's Arch",
+   "name": "Fort Marriner Waypoint",
+   "tags": [
+    "fractals",
+    "fractals of the mists",
+    "mistlock observatory",
+    "dungeon transport",
+    "dungeon",
+    "lfg",
+    "laurel merchant",
+    "laurel vendor",
+    "laurel",
+    "services",
+    "troll's revenge",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "mistlock mountaineer",
+    "fractal jumping puzzle"
+   ],
+   "note": "Fractals of the Mists portal is south of Fort Marriner; the dungeon-transport NPC is also there. Troll's Revenge JP (wiki Jumping puzzle list). Mistlock Mountaineer JP in the Mistlock Observatory (wiki Jumping puzzle list; reached from Lion's Arch)."
+  },
+  {
+   "chat_link": "[&BA4EAAA=]",
+   "map": "Lion's Arch",
+   "name": "Bloodcoast Ward Waypoint",
+   "tags": [
+    "raid",
+    "raids",
+    "lion's arch aerodrome",
+    "aerodrome",
+    "spirit vale",
+    "salvation pass",
+    "stronghold of the faithful",
+    "hall of chains",
+    "mythwright gambit",
+    "key of ahdashim",
+    "mount balrior raid",
+    "raid wing",
+    "laurel merchant",
+    "laurel vendor",
+    "laurel",
+    "services"
+   ],
+   "note": "Lion's Arch Aerodrome (raid lobby, portals to all wings) is west of Bloodcoast Ward Waypoint."
+  },
+  {
+   "chat_link": "[&BD8JAAA=]",
+   "map": "Bloodstone Fen",
+   "name": "Depths of the Maw Waypoint",
+   "tags": [
+    "bastion of the penitent",
+    "raid"
+   ],
+   "note": "Bastion of the Penitent open-world portal is just west of Depths of the Maw Waypoint (wiki)."
+  },
+  {
+   "chat_link": "[&BGMNAAA=]",
+   "map": "Arborstone",
+   "name": "Arborstone Waypoint",
+   "tags": [
+    "strike",
+    "strikes",
+    "end of dragons strike",
+    "aetherblade hideout strike",
+    "xunlai jade junkyard",
+    "kaineng overlook",
+    "harvest temple",
+    "old lion's court strike",
+    "strike mission",
+    "laurel merchant",
+    "laurel vendor",
+    "laurel",
+    "services"
+   ],
+   "note": "End of Dragons strikes are entered from Arborstone (The Ready Room / scrying stones)."
+  },
+  {
+   "chat_link": "[&BEIAAAA=]",
+   "map": "Metrica Province",
+   "name": "Akk Wilds Waypoint",
+   "tags": [
+    "chest run",
+    "empyreal fragments",
+    "gathering"
+   ],
+   "note": "Lady Elyssa Chest Run: Empyreal Fragments starts at Akk Wilds Waypoint."
+  },
+  {
+   "chat_link": "[&BNYHAAA=]",
+   "map": "Auric Basin",
+   "name": "Wanderer's Waypoint",
+   "tags": [
+    "heart of thorns chests",
+    "chest run",
+    "aurillium",
+    "gathering",
+    "the floor is lava",
+    "adventure",
+    "hot adventure",
+    "the floor is lava auric basin",
+    "floor is lava"
+   ],
+   "note": "Lady Elyssa Chest Run: Auric Basin chests start at Wanderer's Waypoint. The Floor Is Lava adventure (GuildJen: start at Wanderer's Waypoint on the surface level). Spelled without a question mark per the wiki."
+  },
+  {
+   "chat_link": "[&BA4IAAA=]",
+   "map": "Tangled Depths",
+   "name": "Order of Whispers Camp Waypoint",
+   "tags": [
+    "heart of thorns chests",
+    "chest run",
+    "ley-line crystals",
+    "gathering"
+   ],
+   "note": "Lady Elyssa Chest Run: Tangled Depths chests start at Order of Whispers Camp Waypoint."
+  },
+  {
+   "chat_link": "[&BMcDAAA=]",
+   "map": "Plains of Ashford",
+   "name": "Loreclaw Waypoint",
+   "tags": [
+    "loreclaw expanse",
+    "jumping puzzle",
+    "jp",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles loreclaw expanse",
+    "diving goggles loreclaw expanse",
+    "dive master plains of ashford",
+    "diving goggles plains of ashford",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "loreclaw expanse plains of ashford"
+   ],
+   "note": "JP is at Loreclaw Expanse, SE Ashford (Dulfy). Dive Master #10: Plains of Ashford #2 — Loreclaw Expanse diving goggles (Dulfy). Loreclaw Expanse mini dungeon (wiki; Dulfy: Loreclaw Expanse waypoint in the SE corner of Plains of Ashford). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BGEBAAA=]",
+   "map": "Diessa Plateau",
+   "name": "Breached Wall Waypoint",
+   "tags": [
+    "crimson plateau",
+    "wall breach blitz",
+    "jumping puzzle",
+    "jp",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "wall breach blitz diessa plateau"
+   ],
+   "note": "Both JPs are at/around the Breached Wall, south Diessa (Dulfy). Wall Breach Blitz mini dungeon (wiki: southwest of Breached Wall Waypoint). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BNoAAAA=]",
+   "map": "Diessa Plateau",
+   "name": "Blasted Moors Waypoint",
+   "tags": [
+    "grendich gamble",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "JP in the Blasted Moors, middle of Diessa (Dulfy)."
+  },
+  {
+   "chat_link": "[&BP0BAAA=]",
+   "map": "Blazeridge Steppes",
+   "name": "Behem Waypoint",
+   "tags": [
+    "behem gauntlet",
+    "jumping puzzle",
+    "jp",
+    "canyon spider",
+    "spider",
+    "spiders",
+    "venom sac",
+    "scale",
+    "smooth scale",
+    "large scale"
+   ],
+   "note": "JP at the east end, Behem Gauntlet (Dulfy). | MATERIAL: Mobs: Almarsguides — Blazeridge Steppes Scale Farming and Venom Sac Farming; Hero of the People guide — Canyon Spiders east of Behem Waypoint."
+  },
+  {
+   "chat_link": "[&BAECAAA=]",
+   "map": "Blazeridge Steppes",
+   "name": "Terra Carorunda Waypoint",
+   "tags": [
+    "craze's folly",
+    "jumping puzzle",
+    "jp",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "craze's folly blazeridge steppes"
+   ],
+   "note": "JP in Terra Carorunda, NE Blazeridge (Dulfy). Craze's Folly mini dungeon (wiki: northeast of Terra Carorunda Waypoint; GuildJen + Coine agree). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BOQBAAA=]",
+   "map": "Iron Marches",
+   "name": "Old Piken Ruins Waypoint",
+   "tags": [
+    "chaos crystal cavern",
+    "jumping puzzle",
+    "jp",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles champion's shield",
+    "diving goggles champion's shield",
+    "dive master iron marches",
+    "diving goggles iron marches",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "chaos crystal cavern iron marches"
+   ],
+   "note": "JP at Old Piken Ruins, SW Iron Marches (Dulfy). Dive Master #15: Iron Marches #1 — Champion's Shield diving goggles, in the Chaos Crystal Cavern jumping puzzle (Dulfy). Chaos Crystal Cavern mini dungeon (wiki: west of Old Piken Ruins Waypoint; Dulfy: SW corner, Old Piken Ruins Waypoint). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BBcCAAA=]",
+   "map": "Fireheart Rise",
+   "name": "Pig Iron Waypoint",
+   "tags": [
+    "pig iron quarry",
+    "jumping puzzle",
+    "jp",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles pig iron mine",
+    "diving goggles pig iron mine",
+    "dive master fireheart rise",
+    "diving goggles fireheart rise",
+    "vexa's lab",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "vexa's lab fireheart rise"
+   ],
+   "note": "JP at Pig Iron Mine, SE Fireheart Rise (Dulfy). Dive Master #17: Fireheart Rise — Pig Iron Mine diving goggles, at the top of the Pig Iron Quarry jumping puzzle tower (Dulfy). Vexa's Lab mini dungeon (GuildJen Mawdrey guide only — single source: go to Pig Iron Waypoint [&BBcCAAA=] and head north to the entrance). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BCYCAAA=]",
+   "map": "Fireheart Rise",
+   "name": "Keeper's Waypoint",
+   "tags": [
+    "vexa's lab",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "JP east of Keeper's Sanctum, Fireheart Rise (Dulfy)."
+  },
+  {
+   "chat_link": "[&BBIAAAA=]",
+   "map": "Kessex Hills",
+   "name": "Cereboth Waypoint",
+   "tags": [
+    "collapsed observatory",
+    "jumping puzzle",
+    "jp",
+    "rich silver",
+    "silver",
+    "rich iron",
+    "iron",
+    "soft wood",
+    "gathering",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles wizard's fief",
+    "diving goggles wizard's fief",
+    "dive master kessex hills",
+    "diving goggles kessex hills",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "JP in Cereboth Canyon, south Kessex Hills (Dulfy). Dive Master #2: Kessex Hills — Wizard's Fief diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BOEAAAA=]",
+   "map": "Gendarran Fields",
+   "name": "Broadhollow Waypoint",
+   "tags": [
+    "not so secret",
+    "jumping puzzle",
+    "jp",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles broadhollow bluffs",
+    "diving goggles broadhollow bluffs",
+    "dive master gendarran fields",
+    "diving goggles gendarran fields"
+   ],
+   "note": "JP at Broadhollow Waypoint (Dulfy). Dive Master #5: Gendarran Fields #3 — Broadhollow Bluffs diving goggles, at the top of the Not So Secret jumping puzzle (Dulfy Not So Secret guide: just south of Broadhollow Waypoint)."
+  },
+  {
+   "chat_link": "[&BKQBAAA=]",
+   "map": "Bloodtide Coast",
+   "name": "Sorrowful Waypoint",
+   "tags": [
+    "professor portmatt's lab",
+    "portmatt's lab",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "JP near Sorrowful Sound, west Bloodtide Coast (Dulfy)."
+  },
+  {
+   "chat_link": "[&BDUBAAA=]",
+   "map": "Caledon Forest",
+   "name": "Spiral Waypoint",
+   "tags": [
+    "morgan's leap",
+    "dark reverie",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "Both JPs are at Morgan's Spiral, SE Caledon Forest (Dulfy)."
+  },
+  {
+   "chat_link": "[&BDQBAAA=]",
+   "map": "Caledon Forest",
+   "name": "Astorea Waypoint",
+   "tags": [
+    "spekk's laboratory",
+    "spekk's lab",
+    "jumping puzzle",
+    "jp",
+    "spelunker's delve",
+    "core jumping puzzle"
+   ],
+   "note": "JP at Sandycove Beach, west Caledon Forest (Dulfy); Astorea is the west-coast waypoint. Spelunker's Delve JP, wiki nearest waypoint (v1.3 tagged this waypoint as Spekk's Lab — it now carries both)."
+  },
+  {
+   "chat_link": "[&BP4FAAA=]",
+   "map": "Caledon Forest",
+   "name": "Sleive's Waypoint",
+   "tags": [
+    "spelunker's delve",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "JP at Sleive's Inlet, SE Caledon Forest (Dulfy)."
+  },
+  {
+   "chat_link": "[&BLIEAAA=]",
+   "map": "Metrica Province",
+   "name": "Cuatl Waypoint",
+   "tags": [
+    "goemm's lab",
+    "jumping puzzle",
+    "jp",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "goemm's lab metrica province"
+   ],
+   "note": "JP south of Cuatl Waypoint, east Metrica Province (Dulfy). Goemm's Lab mini dungeon (wiki; Dulfy: puzzle entrance just south of Cuatl Waypoint). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BMgCAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Govoran Waypoint",
+   "tags": [
+    "conundrum cubed",
+    "hidden garden",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "Conundrum Cubed is NW of Govoran's Waypoint; Hidden Garden has an access point there (Dulfy)."
+  },
+  {
+   "chat_link": "[&BAEEAAA=]",
+   "map": "Wayfarer Foothills",
+   "name": "Osenfold Waypoint",
+   "tags": [
+    "shaman's rookery",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "JP at Osenfold Shear, west Wayfarer Foothills (Dulfy)."
+  },
+  {
+   "chat_link": "[&BOgAAAA=]",
+   "map": "Lornar's Pass",
+   "name": "False Lake Waypoint",
+   "tags": [
+    "griffonrook run",
+    "jumping puzzle",
+    "jp",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles false lake",
+    "diving goggles false lake",
+    "dive master lornar's pass",
+    "diving goggles lornar's pass"
+   ],
+   "note": "JP near False Lake, west Lornar's Pass (Dulfy). Dive Master #30: Lornar's Pass #2 — False Lake diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BEYCAAA=]",
+   "map": "Timberline Falls",
+   "name": "Okarinoo Waypoint",
+   "tags": [
+    "coddler's cove",
+    "jumping puzzle",
+    "jp",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "coddler's cove timberline falls",
+    "jotun",
+    "grawl",
+    "heavy bone",
+    "engraved totem"
+   ],
+   "note": "JP at Okarinoo Waypoint, SE Timberline Falls (Dulfy). Coddler's Cove mini dungeon (wiki: entrance inside Mellagan's Grotto, directly south of the Okarinoo point of interest). Also a jumping puzzle. | MATERIAL: Mobs: Almarsguides — Jotun in Timberline Falls (Engraved Totem & Heavy Bones); Grawl in Timberline Falls (Engraved Totems & Heavy Bones)."
+  },
+  {
+   "chat_link": "[&BE4CAAA=]",
+   "map": "Timberline Falls",
+   "name": "Foundation 86 Waypoint",
+   "tags": [
+    "only zuhl",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "JP at Foundation 86, NE Timberline Falls (Dulfy)."
+  },
+  {
+   "chat_link": "[&BH4CAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Ice Floe Waypoint",
+   "tags": [
+    "shattered ice ruins",
+    "jumping puzzle",
+    "jp",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles shattered ice floe",
+    "diving goggles shattered ice floe",
+    "dive master frostgorge sound",
+    "diving goggles frostgorge sound"
+   ],
+   "note": "JP at Shattered Ice Floe, north Frostgorge Sound (Dulfy). Dive Master #33: Frostgorge Sound — Shattered Ice Floe diving goggles, at the end of the Shattered Ice Ruins jumping puzzle (Dulfy)."
+  },
+  {
+   "chat_link": "[&BKoCAAA=]",
+   "map": "Malchor's Leap",
+   "name": "Valley of Lyss Waypoint",
+   "tags": [
+    "antre of adjournment",
+    "scavenger's chasm",
+    "jumping puzzle",
+    "jp",
+    "rich mithril",
+    "mithril",
+    "gathering"
+   ],
+   "note": "Both JPs are east of Valley of Lyss, south Malchor's Leap (Dulfy)."
+  },
+  {
+   "chat_link": "[&BBAEAAA=]",
+   "map": "Lion's Arch",
+   "name": "Trader's Forum Waypoint",
+   "tags": [
+    "troll's end",
+    "jumping puzzle",
+    "jp",
+    "bank",
+    "trading post",
+    "mystic forge",
+    "crafting",
+    "crafting station",
+    "laurel vendor",
+    "services",
+    "armorsmith",
+    "weaponsmith",
+    "huntsman",
+    "artificer",
+    "leatherworker",
+    "tailor",
+    "jeweler",
+    "chef",
+    "merchant",
+    "merchants",
+    "guild bank",
+    "laurel merchant",
+    "laurel",
+    "mad king's clock tower",
+    "stopped clock tower",
+    "festival jumping puzzle",
+    "halloween jumping puzzle"
+   ],
+   "note": "JP at Trader's Forum, Lion's Arch (Dulfy). Mad King's Clock Tower + Stopped Clock Tower JPs, Halloween only (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BDMEAAA=]",
+   "map": "Lion's Arch",
+   "name": "Farshore Waypoint",
+   "tags": [
+    "urmaug's secret",
+    "jumping puzzle",
+    "jp",
+    "weyandt's revenge",
+    "core jumping puzzle",
+    "moa racing",
+    "moa racing lion's arch",
+    "dragon bash"
+   ],
+   "note": "JP in the NE corner of Lion's Arch (Dulfy); Farshore is the NE waypoint. Weyandt's Revenge JP in Sharkmaw Caverns (wiki Jumping puzzle list; v1.3 tagged this waypoint as Urmaug's Secret — it now carries both). Moa Racing — seasonal only. Farshore Ward, Lion's Arch (speak to Tigg); removed from the permanent game with Escape from Lion's Arch (2014), returns only during Dragon Bash. Medium confidence."
+  },
+  {
+   "chat_link": "[&BHsJAAA=]",
+   "map": "Ember Bay",
+   "name": "Chalice of Tears",
+   "tags": [
+    "chalice of tears",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "This IS the JP location (landmark POI in the API) — tagged as-is, like Spearmarshal's Lament in v1.2."
+  },
+  {
+   "chat_link": "[&BM8JAAA=]",
+   "map": "Draconis Mons",
+   "name": "Searing Ascent",
+   "tags": [
+    "searing ascent",
+    "jumping puzzle",
+    "jp"
+   ],
+   "note": "This IS the JP location (landmark POI in the API) — tagged as-is."
+  },
+  {
+   "chat_link": "[&BLYEAAA=]",
+   "map": "Rata Sum",
+   "name": "Accountancy Waypoint",
+   "tags": [
+    "bank",
+    "trading post",
+    "crafting",
+    "crafting station",
+    "services",
+    "merchant",
+    "merchants",
+    "guild bank",
+    "armorsmith",
+    "weaponsmith",
+    "huntsman",
+    "artificer",
+    "leatherworker",
+    "tailor",
+    "jeweler",
+    "chef",
+    "laurel merchant",
+    "laurel vendor",
+    "laurel"
+   ],
+   "note": "Rata Sum services: Accountancy Waypoint is ranked 1st for bank/TP distance (GuildWarsHub)."
+  },
+  {
+   "chat_link": "[&BP4EAAA=]",
+   "map": "Divinity's Reach",
+   "name": "Ministers Waypoint",
+   "tags": [
+    "bank",
+    "trading post",
+    "crafting",
+    "crafting station",
+    "services",
+    "merchant",
+    "merchants",
+    "guild bank",
+    "armorsmith",
+    "weaponsmith",
+    "huntsman",
+    "artificer",
+    "leatherworker",
+    "tailor",
+    "jeweler",
+    "chef"
+   ],
+   "note": "Divinity's Reach services: Ministers Waypoint is right beside the bank (GuildWarsHub)."
+  },
+  {
+   "chat_link": "[&BLoEAAA=]",
+   "map": "The Grove",
+   "name": "Upper Commons Waypoint",
+   "tags": [
+    "bank",
+    "trading post",
+    "crafting",
+    "crafting station",
+    "services",
+    "merchant",
+    "merchants",
+    "guild bank",
+    "armorsmith",
+    "weaponsmith",
+    "huntsman",
+    "artificer",
+    "leatherworker",
+    "tailor",
+    "jeweler",
+    "chef",
+    "laurel merchant",
+    "laurel vendor",
+    "laurel",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles upper commons",
+    "diving goggles upper commons",
+    "dive master the grove",
+    "diving goggles the grove"
+   ],
+   "note": "The Grove services are at the Upper Commons. Dive Master #19: The Grove — Upper Commons diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BIYDAAA=]",
+   "map": "Hoelbrak",
+   "name": "Trade Commons Waypoint",
+   "tags": [
+    "bank",
+    "trading post",
+    "crafting",
+    "crafting station",
+    "services",
+    "merchant",
+    "merchants",
+    "guild bank",
+    "armorsmith",
+    "weaponsmith",
+    "huntsman",
+    "artificer",
+    "leatherworker",
+    "tailor",
+    "jeweler",
+    "chef",
+    "mount race",
+    "dragon bash mount race",
+    "dragon bash race",
+    "dragon bash hoelbrak mount race"
+   ],
+   "note": "Hoelbrak services are at the Trade Commons."
+  },
+  {
+   "chat_link": "[&BPYAAAA=]",
+   "map": "Queensdale",
+   "name": "Claypool Waypoint",
+   "tags": [
+    "crafting",
+    "crafting station",
+    "bank",
+    "trading post",
+    "services",
+    "rich copper",
+    "copper",
+    "gathering",
+    "merchant",
+    "merchants",
+    "guild bank",
+    "armorsmith",
+    "weaponsmith",
+    "huntsman",
+    "artificer",
+    "leatherworker",
+    "tailor",
+    "jeweler",
+    "chef"
+   ],
+   "note": "Claypool (Queensdale) has a full set of crafting stations plus bank and trading post nearby."
+  },
+  {
+   "chat_link": "[&BMwHAAA=]",
+   "map": "Tangled Depths",
+   "name": "Ogre Camp Waypoint",
+   "tags": [
+    "flax",
+    "flax farm",
+    "flax seeds",
+    "gathering",
+    "disco dancing delver",
+    "jumping puzzle",
+    "jp",
+    "hot jumping puzzle",
+    "mastery insight",
+    "the ley-line run",
+    "adventure",
+    "hot adventure",
+    "the ley-line run tangled depths",
+    "ley-line run"
+   ],
+   "note": "Flax farm: 8 nodes at The Great Tree, up the rocky arch where tropical birds nest (GameRant; wiki Flax). Disco Dancing Delver JP under The Great Tree (wiki Jumping puzzle list; mastery insight). The Ley-Line Run adventure, alternate route (wiki: Ogre Camp Waypoint via a Nuhoch Wallow)."
+  },
+  {
+   "chat_link": "[&BEEJAAA=]",
+   "map": "Bloodstone Fen",
+   "name": "Ground Zero Waypoint",
+   "tags": [
+    "flax",
+    "flax farm",
+    "flax seeds",
+    "gathering",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Flax farm: 8 nodes in the Fragmented Wastes, 5 just over the waypoint (GameRant; wiki Flax)."
+  },
+  {
+   "chat_link": "[&BEsJAAA=]",
+   "map": "Bloodstone Fen",
+   "name": "Soulkeeper's Airship Waypoint",
+   "tags": [
+    "flax",
+    "flax farm",
+    "flax seeds",
+    "gathering"
+   ],
+   "note": "Flax farm: same Fragmented Wastes cluster as Ground Zero, reachable from the airship (GameRant; wiki Flax)."
+  },
+  {
+   "chat_link": "[&BM0JAAA=]",
+   "map": "Draconis Mons",
+   "name": "Heathen's Hold Waypoint",
+   "tags": [
+    "flax",
+    "flax farm",
+    "flax seeds",
+    "gathering",
+    "searing ascent",
+    "jumping puzzle",
+    "jp",
+    "living world jumping puzzle"
+   ],
+   "note": "Flax farm: ring of 10 nodes in the Druid's Grotto, Savage Rise (GameRant; wiki Flax). Searing Ascent JP at the Searing Ascent POI (wiki Jumping puzzle list; the Searing Ascent landmark is tagged as-is too)."
+  },
+  {
+   "chat_link": "[&BH4LAAA=]",
+   "map": "Jahai Bluffs",
+   "name": "Yatendi Village Waypoint",
+   "tags": [
+    "flax",
+    "flax farm",
+    "flax seeds",
+    "gathering",
+    "displaced vizier's tower",
+    "vizier's tower",
+    "jumping puzzle",
+    "jp",
+    "living world jumping puzzle",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Flax farm: 8 nodes at the Jungle Anomaly, top platform of Wyvern Roost (GameRant; wiki Flax). Displaced Vizier's Tower JP (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BFcLAAA=]",
+   "map": "Domain of Kourna",
+   "name": "Allied Encampment Waypoint",
+   "tags": [
+    "flax",
+    "flax farm",
+    "flax seeds",
+    "gathering",
+    "roller beetle training",
+    "adventure",
+    "living world adventure",
+    "roller beetle training domain of kourna",
+    "griffon expert",
+    "griffon expert domain of kourna"
+   ],
+   "note": "Flax farm: ~4 nodes at Palawa's Benevolence, north of Allied Encampment, Arkjok Farmlands (Metabattle; wiki Flax). Roller Beetle Training (wiki: run north from Allied Encampment Waypoint) + Griffon Expert, Kourna (wiki Getting there, Yohlon Bluffs)."
+  },
+  {
+   "chat_link": "[&BBsDAAA=]",
+   "map": "Cursed Shore",
+   "name": "Verdance Waypoint",
+   "tags": [
+    "rich mithril",
+    "mithril",
+    "gathering",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles cathedral of verdance",
+    "diving goggles cathedral of verdance",
+    "dive master cursed shore",
+    "diving goggles cursed shore"
+   ],
+   "note": "Rich Mithril Vein east of Verdance Waypoint, Cursed Shore (wiki Rich Mithril Vein). Dive Master #38: Cursed Shore #2 — Cathedral of Verdance diving goggles (wiki Cathedral of Verdance page)."
+  },
+  {
+   "chat_link": "[&BOQGAAA=]",
+   "map": "Cursed Shore",
+   "name": "Shipwreck Rock Waypoint",
+   "tags": [
+    "rich mithril",
+    "mithril",
+    "gathering",
+    "buried archives",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles mausollus sea",
+    "diving goggles mausollus sea",
+    "dive master cursed shore",
+    "diving goggles cursed shore"
+   ],
+   "note": "Guaranteed Rich Mithril Vein west of Shipwreck Rock Waypoint, Mausollus Sea (wiki Rich Mithril Vein). Buried Archives JP (wiki Jumping puzzle list). Dive Master #37: Cursed Shore #1 — Mausollus Sea diving goggles, in the Buried Archives jumping puzzle (GuildJen Buried Archives guide: start from Shipwreck Rock Waypoint, head west; Dulfy gives no waypoint here)."
+  },
+  {
+   "chat_link": "[&BB4DAAA=]",
+   "map": "Cursed Shore",
+   "name": "Meddler's Waypoint",
+   "tags": [
+    "rich mithril",
+    "mithril",
+    "gathering",
+    "rich orichalcum",
+    "orichalcum"
+   ],
+   "note": "Rich Mithril Vein west of Meddler's Waypoint, Cursed Shore (wiki Rich Mithril Vein)."
+  },
+  {
+   "chat_link": "[&BKcCAAA=]",
+   "map": "Malchor's Leap",
+   "name": "Doric's Waypoint",
+   "tags": [
+    "rich mithril",
+    "mithril",
+    "gathering",
+    "rich orichalcum",
+    "orichalcum"
+   ],
+   "note": "Rich Mithril Vein NE of Doric's Waypoint, Karst Plains (wiki Rich Mithril Vein)."
+  },
+  {
+   "chat_link": "[&BHwCAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Slough of Despond Waypoint",
+   "tags": [
+    "rich mithril",
+    "mithril",
+    "gathering"
+   ],
+   "note": "Rich Mithril Vein south of Slough of Despond Waypoint, Iron Horse Mines tunnel, Frostgorge Sound (wiki Rich Mithril Vein)."
+  },
+  {
+   "chat_link": "[&BHsCAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Path of Starry Skies Waypoint",
+   "tags": [
+    "rich mithril",
+    "mithril",
+    "gathering"
+   ],
+   "note": "Rich Mithril Vein SW of Path of Starry Skies Waypoint, Snow Climb, Frostgorge Sound (wiki Rich Mithril Vein)."
+  },
+  {
+   "chat_link": "[&BIYCAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Drakkar Waypoint",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "gathering"
+   ],
+   "note": "Rich Orichalcum node right next to Drakkar Waypoint, Frostgorge Sound (Almars spawn list)."
+  },
+  {
+   "chat_link": "[&BH8CAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Dimotiki Waypoint",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "gathering"
+   ],
+   "note": "Rich Orichalcum node SE of Dimotiki Waypoint, Frostgorge Sound (Almars spawn list)."
+  },
+  {
+   "chat_link": "[&BK4CAAA=]",
+   "map": "Malchor's Leap",
+   "name": "Blighted Arch Waypoint",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "gathering"
+   ],
+   "note": "Rich Orichalcum node at Blighted Arch, Malchor's Leap (Almars spawn list)."
+  },
+  {
+   "chat_link": "[&BK8CAAA=]",
+   "map": "Malchor's Leap",
+   "name": "Murmur Waypoint",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "gathering"
+   ],
+   "note": "Rich Orichalcum node west of Murmur Waypoint, Malchor's Leap (Almars spawn list)."
+  },
+  {
+   "chat_link": "[&BB8DAAA=]",
+   "map": "Cursed Shore",
+   "name": "Anchorage Waypoint",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "gathering",
+    "elder wood"
+   ],
+   "note": "Rich Orichalcum nodes SE of and by Anchorage Waypoint, Cursed Shore (Almars spawn list)."
+  },
+  {
+   "chat_link": "[&BBoDAAA=]",
+   "map": "Cursed Shore",
+   "name": "Gavbeorn's Waypoint",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "gathering"
+   ],
+   "note": "Rich Orichalcum node SE of Gavbeorn's Waypoint, Cursed Shore (Almars spawn list)."
+  },
+  {
+   "chat_link": "[&BBcDAAA=]",
+   "map": "Cursed Shore",
+   "name": "Pursuit Pass Waypoint",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "gathering"
+   ],
+   "note": "Rich Orichalcum node by Pursuit Pass Waypoint, Cursed Shore (Almars spawn list)."
+  },
+  {
+   "chat_link": "[&BK8JAAA=]",
+   "map": "Lake Doric",
+   "name": "Red Leaf Retreat Waypoint",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "gathering",
+    "noran's safe room",
+    "mini dungeon",
+    "mini-dungeon",
+    "living world mini dungeon",
+    "noran's safe room lake doric"
+   ],
+   "note": "Guaranteed Rich Orichalcum at Lakeside Bazaar mastery point, fastest from Red Leaf Retreat walking east (Strikingly gathering guide). Noran's Safe Room mini dungeon (GuildJen Head of the Snake guide: buy 'Key to Noran's Secret Chest' from the heart NPC at Red Leaf Retreat Waypoint [&BK8JAAA=]; entrance in the basement of Noran's house, Harvest Cascades. Corroborated by AyinMaiden)."
+  },
+  {
+   "chat_link": "[&BLQJAAA=]",
+   "map": "Lake Doric",
+   "name": "Lakeside Bazaar Waypoint",
+   "tags": [
+    "rich orichalcum",
+    "orichalcum",
+    "gathering"
+   ],
+   "note": "Guaranteed Rich Orichalcum at the Lakeside Bazaar mastery point, Lake Doric (Strikingly gathering guide)."
+  },
+  {
+   "chat_link": "[&BJcHAAA=]",
+   "map": "Dry Top",
+   "name": "Repair Station Waypoint",
+   "tags": [
+    "quartz",
+    "quartz crystal",
+    "gathering"
+   ],
+   "note": "Quartz Crystal nodes at Crash Site 1, reachable from Repair Station Waypoint, Dry Top (forum quartz guide)."
+  },
+  {
+   "chat_link": "[&BIYHAAA=]",
+   "map": "Dry Top",
+   "name": "Vine Bridge Waypoint",
+   "tags": [
+    "quartz",
+    "quartz crystal",
+    "gathering"
+   ],
+   "note": "Rich Quartz Crystal node in Cragrock Palace, reachable from Vine Bridge Waypoint, Dry Top (forum quartz guide)."
+  },
+  {
+   "chat_link": "[&BIQBAAA=]",
+   "map": "Plains of Ashford",
+   "name": "Ashford Waypoint",
+   "tags": [
+    "rich copper",
+    "copper",
+    "gathering",
+    "bank",
+    "guild bank",
+    "trading post",
+    "crafting",
+    "crafting station",
+    "services",
+    "merchant",
+    "merchants",
+    "armorsmith",
+    "weaponsmith",
+    "huntsman",
+    "artificer",
+    "leatherworker",
+    "tailor",
+    "jeweler",
+    "chef"
+   ],
+   "note": "Map hub: Rich Copper Vein spawns in Plains of Ashford (GW2 Life; wiki Rich Copper Vein)."
+  },
+  {
+   "chat_link": "[&BEgAAAA=]",
+   "map": "Metrica Province",
+   "name": "Desider Atum Waypoint",
+   "tags": [
+    "rich copper",
+    "copper",
+    "gathering",
+    "crafting",
+    "crafting station",
+    "services",
+    "merchant",
+    "merchants",
+    "armorsmith",
+    "weaponsmith",
+    "huntsman",
+    "artificer",
+    "leatherworker",
+    "tailor",
+    "jeweler",
+    "chef",
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "the fox",
+    "fox",
+    "psna tuesday"
+   ],
+   "note": "Map hub: Rich Copper Vein spawns in Metrica Province (GW2 Life; wiki Rich Copper Vein). PSNA — The Fox (Maguuma Jungle), Tuesday: Desider Atum Waypoint, Metrica Province. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BHkBAAA=]",
+   "map": "Wayfarer Foothills",
+   "name": "Crossroads Haven Waypoint",
+   "tags": [
+    "rich copper",
+    "copper",
+    "gathering"
+   ],
+   "note": "Map hub: Rich Copper Vein spawns in Wayfarer Foothills (GW2 Life; wiki Rich Copper Vein)."
+  },
+  {
+   "chat_link": "[&BGMAAAA=]",
+   "map": "Brisban Wildlands",
+   "name": "Gallowfields Waypoint",
+   "tags": [
+    "rich silver",
+    "silver",
+    "rich iron",
+    "iron",
+    "soft wood",
+    "gathering",
+    "tropic valley raceway",
+    "adventure",
+    "roller beetle adventure",
+    "tropic valley raceway brisban wildlands",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "Map hub: Rich Silver Vein, Rich Iron Vein and Soft Wood all spawn in Brisban Wildlands (GW2 Life; wiki vein pages). Tropic Valley Raceway, Roller Beetle Time Trial (MetaBattle: track at The Gallowfields — direct name match)."
+  },
+  {
+   "chat_link": "[&BOkAAAA=]",
+   "map": "Lornar's Pass",
+   "name": "Durmand Priory Waypoint",
+   "tags": [
+    "rich silver",
+    "silver",
+    "rich iron",
+    "iron",
+    "gathering",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward",
+    "guild mission",
+    "guild missions",
+    "guild rush",
+    "bear lope",
+    "bear lope guild rush",
+    "guild rush lornar's pass"
+   ],
+   "note": "Map hub: Rich Silver Vein and Rich Iron Vein spawn in Lornar's Pass (GW2 Life; wiki vein pages)."
+  },
+  {
+   "chat_link": "[&BOwBAAA=]",
+   "map": "Iron Marches",
+   "name": "Bulwark Waypoint",
+   "tags": [
+    "rich platinum",
+    "platinum",
+    "hard wood",
+    "gathering",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "Map hub: Rich Platinum Vein and Hard Wood spawn in Iron Marches (GW2 Life; wiki vein pages)."
+  },
+  {
+   "chat_link": "[&BBYEAAA=]",
+   "map": "Heart of the Mists",
+   "name": "PvP Lobby Waypoint",
+   "tags": [
+    "mystic forge",
+    "services"
+   ],
+   "note": "Mystic Forge in the Heart of the Mists lobby (everylastrecipe Mystic Forge guide; forum)."
+  },
+  {
+   "chat_link": "[&BKcDAAA=]",
+   "map": "Black Citadel",
+   "name": "Factorium Waypoint",
+   "tags": [
+    "bank",
+    "guild bank",
+    "trading post",
+    "crafting",
+    "crafting station",
+    "services",
+    "merchant",
+    "merchants",
+    "armorsmith",
+    "weaponsmith",
+    "huntsman",
+    "artificer",
+    "leatherworker",
+    "tailor",
+    "jeweler",
+    "chef"
+   ],
+   "note": "Black Citadel services: Canton Factorium has all 8 crafting disciplines, bank, trading post and merchants (Allakhazam Crafting wiki)."
+  },
+  {
+   "chat_link": "[&BDoBAAA=]",
+   "map": "Caledon Forest",
+   "name": "Mabon Waypoint",
+   "tags": [
+    "crafting",
+    "crafting station",
+    "services",
+    "merchant",
+    "merchants",
+    "armorsmith",
+    "weaponsmith",
+    "huntsman",
+    "artificer",
+    "leatherworker",
+    "tailor",
+    "jeweler",
+    "chef",
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "the fox",
+    "fox",
+    "psna sunday"
+   ],
+   "note": "Caledon Forest services: Mabon Market has crafting masters/stations and merchants (Allakhazam Crafting wiki; no trading post/bank verified there). PSNA — The Fox (Maguuma Jungle), Sunday: Mabon Waypoint, Caledon Forest. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BIABAAA=]",
+   "map": "Plains of Ashford",
+   "name": "Smokestead Waypoint",
+   "tags": [
+    "trading post",
+    "merchant",
+    "merchants",
+    "services"
+   ],
+   "note": "Village of Smokestead, Plains of Ashford, has a trading post and merchants (Allakhazam Crafting wiki)."
+  },
+  {
+   "chat_link": "[&BKYDAAA=]",
+   "map": "Black Citadel",
+   "name": "Memorial Waypoint",
+   "tags": [
+    "laurel merchant",
+    "laurel vendor",
+    "laurel",
+    "services"
+   ],
+   "note": "Laurel Merchant in the Memorial Quadrant, Black Citadel (wiki Laurel Merchant)."
+  },
+  {
+   "chat_link": "[&BCgDAAA=]",
+   "map": "Divinity's Reach",
+   "name": "Balthazar Waypoint",
+   "tags": [
+    "laurel merchant",
+    "laurel vendor",
+    "laurel",
+    "services"
+   ],
+   "note": "Laurel Merchant at the Plaza of Balthazar, Divinity's Reach (wiki Laurel Merchant)."
+  },
+  {
+   "chat_link": "[&BMwDAAA=]",
+   "map": "Gendarran Fields",
+   "name": "Snowblind Waypoint",
+   "tags": [
+    "laurel merchant",
+    "laurel vendor",
+    "laurel",
+    "services"
+   ],
+   "note": "Laurel Merchant at Havoc's Heir, Snowblind Peaks, Gendarran Fields (wiki Laurel Merchant)."
+  },
+  {
+   "chat_link": "[&BNUDAAA=]",
+   "map": "Hoelbrak",
+   "name": "Great Lodge Waypoint",
+   "tags": [
+    "laurel merchant",
+    "laurel vendor",
+    "laurel",
+    "services"
+   ],
+   "note": "Laurel Merchant at The Great Lodge, Hoelbrak (wiki Laurel Merchant)."
+  },
+  {
+   "chat_link": "[&BMYDAAA=]",
+   "map": "Diessa Plateau",
+   "name": "Redreave Mill Waypoint",
+   "tags": [
+    "crimson plateau",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle"
+   ],
+   "note": "Crimson Plateau JP (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BNcAAAA=]",
+   "map": "Fields of Ruin",
+   "name": "Tenaebron Waypoint",
+   "tags": [
+    "branded mine",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles tenaebron lake",
+    "diving goggles tenaebron lake",
+    "dive master fields of ruin",
+    "diving goggles fields of ruin",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "branded mine fields of ruin"
+   ],
+   "note": "Branded Mine JP (wiki Jumping puzzle list). Dive Master #13: Fields of Ruin #1 — Tenaebron Lake diving goggles (Dulfy). Branded Mine mini dungeon (wiki Jumping puzzle table; alt: Helliot Mine Waypoint, head north). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BA4MAAA=]",
+   "map": "Grothmar Valley",
+   "name": "Dalada Forest Waypoint",
+   "tags": [
+    "gauntlet of the khan-ur",
+    "khan-ur",
+    "jumping puzzle",
+    "jp",
+    "icebrood saga jumping puzzle",
+    "grothmar grand tour",
+    "adventure",
+    "icebrood saga adventure",
+    "grothmar grand tour grothmar valley",
+    "grothmar valley skyscale trial",
+    "grothmar valley skyscale trial grothmar valley"
+   ],
+   "note": "Gauntlet of the Khan-Ur JP (wiki Jumping puzzle list). Grothmar Grand Tour (GuildJen: Time Trial in Dalada Forest) + Grothmar Valley Skyscale Trial (wiki: run south-east from Dalada Forest Waypoint to the Priory Research Station)."
+  },
+  {
+   "chat_link": "[&BBkCAAA=]",
+   "map": "Fireheart Rise",
+   "name": "Severed Breach Waypoint",
+   "tags": [
+    "pig iron quarry",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "pig iron quarry fireheart rise"
+   ],
+   "note": "Pig Iron Quarry JP, wiki nearest waypoint (v1.3/Dulfy tagged Pig Iron Waypoint instead — both tagged). Pig Iron Quarry mini dungeon (wiki: northeast of Severed Breach Waypoint, on top of the island; alt: swim from Pig Iron Waypoint). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BL8MAAA=]",
+   "map": "Seitung Province",
+   "name": "Monastery Waypoint",
+   "tags": [
+    "trials of the tengu",
+    "jumping puzzle",
+    "jp",
+    "cantha jumping puzzle",
+    "eod jumping puzzle"
+   ],
+   "note": "Trials of the Tengu JP (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BAgIAAA=]",
+   "map": "Verdant Brink",
+   "name": "Pact Encampment Waypoint",
+   "tags": [
+    "verdant brink insight: canopy over pact encampment",
+    "canopy over pact encampment",
+    "jumping puzzle",
+    "jp",
+    "hot jumping puzzle",
+    "mastery insight"
+   ],
+   "note": "Verdant Brink Insight: Canopy Over Pact Encampment (wiki Jumping puzzle list; mastery insight)."
+  },
+  {
+   "chat_link": "[&BAMIAAA=]",
+   "map": "Tangled Depths",
+   "name": "Rata Novus Waypoint",
+   "tags": [
+    "master mushroom spelunker",
+    "jumping puzzle",
+    "jp",
+    "hot jumping puzzle",
+    "mastery insight",
+    "haywire punch-o-matic battle",
+    "adventure",
+    "hot adventure",
+    "haywire punch-o-matic battle tangled depths"
+   ],
+   "note": "Master Mushroom Spelunker JP (wiki Jumping puzzle list; mastery insight). Haywire Punch-o-Matic Battle adventure, alternate route (wiki Getting there: Rata Novus Waypoint with Nuhoch Wallows, 'the easiest way')."
+  },
+  {
+   "chat_link": "[&BK4OAAA=]",
+   "map": "Lowland Shore",
+   "name": "Harvest Den Waypoint",
+   "tags": [
+    "treetop beehive",
+    "jumping puzzle",
+    "jp",
+    "janthir jumping puzzle",
+    "hide-and-seek challenge",
+    "adventure",
+    "janthir adventure",
+    "hide-and-seek challenge lowland shore",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "titanspawn rift"
+   ],
+   "note": "Treetop Beehive JP at Apiary Holt (wiki Jumping puzzle list). Hide-and-Seek Challenge (wiki Harvest Den page lists the adventure + Harvest Den Waypoint; GuildJen: west of Denning Forge)."
+  },
+  {
+   "chat_link": "[&BMkOAAA=]",
+   "map": "Lowland Shore",
+   "name": "Hot Springs Waypoint",
+   "tags": [
+    "vale brazier",
+    "jumping puzzle",
+    "jp",
+    "janthir jumping puzzle"
+   ],
+   "note": "Vale Brazier JP at Lamplighter's Perch (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BC4PAAA=]",
+   "map": "Lowland Shore",
+   "name": "Autumn's Vale Waypoint",
+   "tags": [
+    "queen's confidence",
+    "jumping puzzle",
+    "jp",
+    "janthir jumping puzzle"
+   ],
+   "note": "Queen's Confidence JP (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BG0PAAA=]",
+   "map": "Bava Nisos",
+   "name": "Hidden Nodule Waypoint",
+   "tags": [
+    "traversing the titan",
+    "jumping puzzle",
+    "jp",
+    "janthir jumping puzzle"
+   ],
+   "note": "Traversing the Titan JP inside the Hidden Nodule (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BA0EAAA=]",
+   "map": "Lion's Arch",
+   "name": "Guild Bluff Waypoint",
+   "tags": [
+    "urmaug's secret",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "advanced skimmer course",
+    "adventure",
+    "pof adventure",
+    "advanced skimmer course lion's arch"
+   ],
+   "note": "Urmaug's Secret JP, wiki nearest waypoint (v1.3/Dulfy tagged Farshore Waypoint instead — both tagged). Advanced Skimmer Course (wiki: south of Guild Initiative Headquarters; GuildJen/AyinMaiden: south of Guild Bluff Waypoint, talk with Sibaha — medium confidence)."
+  },
+  {
+   "chat_link": "[&BOMAAAA=]",
+   "map": "Gendarran Fields",
+   "name": "Cornucopian Fields Waypoint",
+   "tags": [
+    "swashbuckler's cove",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle"
+   ],
+   "note": "Swashbuckler's Cove JP (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BMMAAAA=]",
+   "map": "Harathi Hinterlands",
+   "name": "Arcallion Waypoint",
+   "tags": [
+    "fawcett's bounty",
+    "fawcett's revenge",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle"
+   ],
+   "note": "Fawcett's Bounty JP north of Arca Lake (wiki Jumping puzzle list; falling in a pit near the start gives Fawcett's Revenge)."
+  },
+  {
+   "chat_link": "[&BNAGAAA=]",
+   "map": "Southsun Cove",
+   "name": "Lion Point Waypoint",
+   "tags": [
+    "skipping stones",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle"
+   ],
+   "note": "Skipping Stones JP in the cave south of the waypoint (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BDcBAAA=]",
+   "map": "Caledon Forest",
+   "name": "Gleaner's Cove Waypoint",
+   "tags": [
+    "spekk's laboratory",
+    "spekk's lab",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "spekks's laboratory",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "spekks's laboratory caledon forest"
+   ],
+   "note": "Spekk's Laboratory JP, wiki nearest waypoint (v1.3/Dulfy tagged Astorea Waypoint instead — both tagged, both waypoints carry both phrases). Spekks's Laboratory mini dungeon (wiki Jumping puzzle table). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BMkCAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Criterion Waypoint",
+   "tags": [
+    "hidden garden",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "hidden garden mount maelstrom"
+   ],
+   "note": "Hidden Garden JP, one of 4 access waypoints (wiki Jumping puzzle list; v1.3 tagged Govoran instead). Hidden Garden mini dungeon — access via Criterion Waypoint (one of four access waypoints: Criterion, Avernan, Oxbow Isle, Irwin Isle; any keeper's portal works, nearest depends on which keeper event is up). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BM8CAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Avernan Waypoint",
+   "tags": [
+    "hidden garden",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "infernal leap",
+    "adventure",
+    "roller beetle adventure",
+    "infernal leap mount maelstrom",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "hidden garden mount maelstrom",
+    "roller beetle race",
+    "mount race",
+    "infernal leap race",
+    "roller beetle racing"
+   ],
+   "note": "Hidden Garden JP, one of 4 access waypoints (wiki Jumping puzzle list). Infernal Leap, Roller Beetle Time Trial (MetaBattle: track at The Stychs, Mount Maelstrom; Avernan is the Mount Maelstrom waypoint in the wiki's list — derived). Hidden Garden mini dungeon — access via Avernan Waypoint (one of four access waypoints). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BNECAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Oxbow Isle Waypoint",
+   "tags": [
+    "hidden garden",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "hidden garden mount maelstrom"
+   ],
+   "note": "Hidden Garden JP, one of 4 access waypoints (wiki Jumping puzzle list). Hidden Garden mini dungeon — access via Oxbow Isle Waypoint (one of four access waypoints). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BNICAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Irwin Isle Waypoint",
+   "tags": [
+    "hidden garden",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "hidden garden mount maelstrom",
+    "guild mission",
+    "guild missions",
+    "guild challenge",
+    "deep trouble",
+    "deep trouble guild challenge",
+    "guild challenge mount maelstrom"
+   ],
+   "note": "Hidden Garden JP, one of 4 access waypoints (wiki Jumping puzzle list). Hidden Garden mini dungeon — access via Irwin Isle Waypoint (one of four access waypoints). Also a jumping puzzle."
+  },
+  {
+   "chat_link": "[&BM0BAAA=]",
+   "map": "Sparkfly Fen",
+   "name": "Darkweather Waypoint",
+   "tags": [
+    "hexfoundry unhinged",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle"
+   ],
+   "note": "Hexfoundry Unhinged JP (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BLoHAAA=]",
+   "map": "The Silverwastes",
+   "name": "Drydock Grotto Waypoint",
+   "tags": [
+    "retrospective runaround",
+    "jumping puzzle",
+    "jp",
+    "living world jumping puzzle"
+   ],
+   "note": "Retrospective Runaround JP at SS Topsy-Turvy (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BHgJAAA=]",
+   "map": "Ember Bay",
+   "name": "Castaway Circus Waypoint",
+   "tags": [
+    "skip up the volcano",
+    "chalice of tears",
+    "jumping puzzle",
+    "jp",
+    "living world jumping puzzle",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Skip up the Volcano JP, also known as Chalice of Tears (wiki Jumping puzzle list; the Chalice of Tears landmark is tagged as-is too)."
+  },
+  {
+   "chat_link": "[&BPcCAAA=]",
+   "map": "Straits of Devastation",
+   "name": "Lone Post Waypoint",
+   "tags": [
+    "vizier's tower",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles shark's teeth archipelago",
+    "diving goggles shark's teeth archipelago",
+    "dive master straits of devastation",
+    "diving goggles straits of devastation"
+   ],
+   "note": "Vizier's Tower JP on the island east of the waypoint (wiki Jumping puzzle list). Dive Master #35: Straits of Devastation #2 — Shark's Teeth Archipelago diving goggles, at the Vizier's Tower bridge (Dulfy)."
+  },
+  {
+   "chat_link": "[&BHcBAAA=]",
+   "map": "Wayfarer Foothills",
+   "name": "Zelechor Hot Springs Waypoint",
+   "tags": [
+    "shaman's rookery",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle"
+   ],
+   "note": "Shaman's Rookery JP, wiki nearest waypoint (v1.3/Dulfy tagged Osenfold Waypoint instead — both tagged)."
+  },
+  {
+   "chat_link": "[&BL8AAAA=]",
+   "map": "Snowden Drifts",
+   "name": "Snowhawk Landing Waypoint",
+   "tags": [
+    "king jalis's refuge",
+    "king jalis refuge",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle"
+   ],
+   "note": "King Jalis's Refuge JP (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BD8FAAA=]",
+   "map": "Dredgehaunt Cliffs",
+   "name": "Sorrow's Embrace Waypoint",
+   "tags": [
+    "tribulation rift scaffolding",
+    "tribulation caverns",
+    "jumping puzzle",
+    "jp",
+    "core jumping puzzle",
+    "jotun",
+    "bone",
+    "heavy bone",
+    "totem",
+    "engraved totem"
+   ],
+   "note": "Tribulation Rift Scaffolding + Tribulation Caverns JPs, wiki nearest waypoint (v1.3 tagged Tribulation Waypoint instead — both tagged). | MATERIAL: Mobs: Almarsguides — Dredgehaunt Cliffs Jotun (Bone & Totems) 45+. Sorrow's Embrace Waypoint is the Dredgehaunt waypoint for that area."
+  },
+  {
+   "chat_link": "[&BMcLAAA=]",
+   "map": "Armistice Bastion",
+   "name": "Lounge Atrium Waypoint",
+   "tags": [
+    "armistice bastion",
+    "jumping puzzle",
+    "jp",
+    "wvw jumping puzzle"
+   ],
+   "note": "Armistice Bastion JP north of the waypoint (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BCwDAAA=]",
+   "map": "Divinity's Reach",
+   "name": "Crown Pavilion Waypoint",
+   "tags": [
+    "winter wonderland",
+    "jumping puzzle",
+    "jp",
+    "festival jumping puzzle",
+    "wintersday jumping puzzle",
+    "firecracker lighting",
+    "adventure",
+    "festival adventure",
+    "firecracker lighting divinity's reach",
+    "firecracker lighting 2",
+    "firecracker lighting 2 divinity's reach",
+    "racing in the new year",
+    "racing in the new year divinity's reach",
+    "pavilion pursuit",
+    "pavilion pursuit divinity's reach",
+    "snowfall sprint",
+    "snowfall sprint divinity's reach",
+    "mount race",
+    "wintersday mount race",
+    "wintersday race",
+    "frozen footrace",
+    "lunar new year mount race",
+    "lunar new year race",
+    "mount race divinity's reach"
+   ],
+   "note": "Winter Wonderland JP, Wintersday only, via Crown Pavilion Waypoint (wiki Jumping puzzle list). Firecracker Lighting + Firecracker Lighting 2 (Lunar New Year, Crown Pavilion; ProjektDyad + wiki) + Racing in the New Year (ProjektDyad: race spawns southwest from Crown Pavilion Waypoint — caveated, describes the race event) + Pavilion Pursuit (Festival of the Four Winds, wiki table: Time Trial NPC in the centre of the Crown Pavilion near the waypoint — caveated, table cell had a template error) + Snowfall Sprint (Wintersday, ProjektDyad: race starts northwest of Crown Pavilion Waypoint)."
+  },
+  {
+   "chat_link": "[&BAIHAAA=]",
+   "map": "Obsidian Sanctum",
+   "name": "Obsidian Sanctum Waypoint",
+   "tags": [
+    "obsidian sanctum",
+    "jumping puzzle",
+    "jp",
+    "wvw jumping puzzle"
+   ],
+   "note": "Obsidian Sanctum JP, accessed from the three keeps in Eternal Battlegrounds (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BAMHAAA=]",
+   "map": "Obsidian Sanctum",
+   "name": "Obsidian Sanctum Waypoint",
+   "tags": [
+    "obsidian sanctum",
+    "jumping puzzle",
+    "jp",
+    "wvw jumping puzzle"
+   ],
+   "note": "Obsidian Sanctum JP, accessed from the three keeps in Eternal Battlegrounds (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BAQHAAA=]",
+   "map": "Obsidian Sanctum",
+   "name": "Obsidian Sanctum Waypoint",
+   "tags": [
+    "obsidian sanctum",
+    "jumping puzzle",
+    "jp",
+    "wvw jumping puzzle"
+   ],
+   "note": "Obsidian Sanctum JP, accessed from the three keeps in Eternal Battlegrounds (wiki Jumping puzzle list)."
+  },
+  {
+   "chat_link": "[&BN4HAAA=]",
+   "map": "Verdant Brink",
+   "name": "Shipwreck Peak Waypoint",
+   "tags": [
+    "creeping crevasse",
+    "creeping crevasse insight",
+    "verdant brink insight",
+    "mastery insight",
+    "bugs in the branches",
+    "adventure",
+    "hot adventure",
+    "bugs in the branches verdant brink",
+    "tendril torchers",
+    "tendril torchers verdant brink"
+   ],
+   "note": "Creeping Crevasse mastery insight (Verdant Brink Insight: Creeping Crevasse) — glide west from Shipwreck Peak Waypoint (Dulfy mastery-insight guide; TheGamer). No POI by this name exists in the API dataset, so the waypoint is tagged instead. Bugs in the Branches adventure (GuildJen: head north from Shipwreck Peak Waypoint). Tendril Torchers adventure (GuildJen: head south from Shipwreck Peak Waypoint through the Dry Step Mesas)."
+  },
+  {
+   "chat_link": "[&BNUHAAA=]",
+   "map": "Verdant Brink",
+   "name": "Mellaggan's Valor Waypoint",
+   "tags": [
+    "flying circus",
+    "adventure",
+    "hot adventure",
+    "flying circus verdant brink"
+   ],
+   "note": "Flying Circus adventure (wiki Getting there: from Mellaggan's Valor Waypoint, head north-west, Bouncing Mushroom up to Uprooted Paradise)."
+  },
+  {
+   "chat_link": "[&BAEIAAA=]",
+   "map": "Verdant Brink",
+   "name": "Shrouded Ruins Waypoint",
+   "tags": [
+    "salvage pit",
+    "adventure",
+    "hot adventure",
+    "salvage pit verdant brink",
+    "shooting gallery",
+    "shooting gallery verdant brink"
+   ],
+   "note": "Salvage Pit adventure (GuildJen: start at Shrouded Ruins, head east). Also Shooting Gallery alternate path (GuildJen; primary is Faren's Flyer)."
+  },
+  {
+   "chat_link": "[&BO8HAAA=]",
+   "map": "Verdant Brink",
+   "name": "Faren's Flyer Waypoint",
+   "tags": [
+    "shooting gallery",
+    "adventure",
+    "hot adventure",
+    "shooting gallery verdant brink"
+   ],
+   "note": "Shooting Gallery adventure (GuildJen: head straight east from Faren's Flyer Waypoint)."
+  },
+  {
+   "chat_link": "[&BAwIAAA=]",
+   "map": "Tangled Depths",
+   "name": "Teku Nuhoch Waypoint",
+   "tags": [
+    "beetle feast",
+    "adventure",
+    "hot adventure",
+    "beetle feast tangled depths"
+   ],
+   "note": "Beetle Feast adventure (AyinMaiden: Teku Nuhoch Waypoint, circle up to Nuhoch Village; Dulfy)."
+  },
+  {
+   "chat_link": "[&BAAIAAA=]",
+   "map": "Tangled Depths",
+   "name": "SCAR Camp Waypoint",
+   "tags": [
+    "drone race",
+    "adventure",
+    "hot adventure",
+    "drone race tangled depths",
+    "scrap rifle field test",
+    "scrap rifle field test tangled depths"
+   ],
+   "note": "Drone Race + Scrap Rifle Field Test adventures (Japanese Fandom wiki SCAR Bivouac area; AyinMaiden: port to SCAR Camp, follow the path northeast)."
+  },
+  {
+   "chat_link": "[&BEAKAAA=]",
+   "map": "Crystal Oasis",
+   "name": "Temple of Kormir Waypoint",
+   "tags": [
+    "griffon expert",
+    "adventure",
+    "pof adventure",
+    "griffon expert crystal oasis"
+   ],
+   "note": "Griffon Expert, Crystal Oasis (wiki Getting there: from Temple of Kormir Waypoint go east, Springer; Dulfy)."
+  },
+  {
+   "chat_link": "[&BJ0KAAA=]",
+   "map": "Desert Highlands",
+   "name": "Highjump Ranch Waypoint",
+   "tags": [
+    "griffon expert",
+    "adventure",
+    "pof adventure",
+    "griffon expert desert highlands"
+   ],
+   "note": "Griffon Expert, Desert Highlands (wiki 'Highlands Griffon Expert' Getting there, Windshear Scarps)."
+  },
+  {
+   "chat_link": "[&BKQKAAA=]",
+   "map": "Desert Highlands",
+   "name": "Derelict Delve Waypoint",
+   "tags": [
+    "griffon master",
+    "adventure",
+    "pof adventure",
+    "griffon master desert highlands"
+   ],
+   "note": "Griffon Master, Desert Highlands (wiki 'Highlands Griffon Master' Getting there, Fortune's Vale)."
+  },
+  {
+   "chat_link": "[&BGcKAAA=]",
+   "map": "Elon Riverlands",
+   "name": "Skimmer Ranch Waypoint",
+   "tags": [
+    "skimshallow cove supply run",
+    "adventure",
+    "pof adventure",
+    "skimshallow cove supply run elon riverlands",
+    "griffon expert",
+    "griffon expert elon riverlands"
+   ],
+   "note": "Skimshallow Cove Supply Run (wiki: started by Nura on Skimmer Ranch, southwest of the waypoint) + Griffon Expert, Elon Riverlands (wiki 'Riverlands Griffon Expert' Getting there, Vulture Drifts)."
+  },
+  {
+   "chat_link": "[&BCgKAAA=]",
+   "map": "Elon Riverlands",
+   "name": "Olishar's Oasis Camp Waypoint",
+   "tags": [
+    "griffon master",
+    "adventure",
+    "pof adventure",
+    "griffon master elon riverlands",
+    "mount race",
+    "race to the finish",
+    "race to the finish elon riverlands",
+    "race to the finish elon riverlands mount race"
+   ],
+   "note": "Griffon Master, Elon Riverlands (wiki 'Riverlands Griffon Master' Getting there, Shoals of Sovereignty)."
+  },
+  {
+   "chat_link": "[&BHMKAAA=]",
+   "map": "The Desolation",
+   "name": "The Scourgeway Waypoint",
+   "tags": [
+    "shadows intel",
+    "adventure",
+    "pof adventure",
+    "shadows intel the desolation",
+    "griffon expert",
+    "griffon expert the desolation",
+    "griffon master",
+    "griffon master the desolation"
+   ],
+   "note": "Shadows Intel + Griffon Expert + Griffon Master, The Desolation (Japanese Fandom wiki, The Scourgeway area page — medium confidence, area listing; Dulfy jackal-portal note for the Master course)."
+  },
+  {
+   "chat_link": "[&BNAKAAA=]",
+   "map": "Domain of Vabbi",
+   "name": "Seborhin Waypoint",
+   "tags": [
+    "garden wine and cheese run",
+    "adventure",
+    "pof adventure",
+    "garden wine and cheese run domain of vabbi"
+   ],
+   "note": "Garden Wine and Cheese Run (wiki map table: Garden of Seborhin area — medium confidence, area listing)."
+  },
+  {
+   "chat_link": "[&BEoKAAA=]",
+   "map": "Domain of Vabbi",
+   "name": "Necropolis Waypoint",
+   "tags": [
+    "necropolis embalming supply run",
+    "adventure",
+    "pof adventure",
+    "necropolis embalming supply run domain of vabbi"
+   ],
+   "note": "Necropolis Embalming Supply Run (wiki map table: The Necropolis area; started by the Managing Embalmer — medium confidence, area listing)."
+  },
+  {
+   "chat_link": "[&BO0KAAA=]",
+   "map": "Domain of Vabbi",
+   "name": "Vehjin Palace Waypoint",
+   "tags": [
+    "vehjin noble necessities run",
+    "adventure",
+    "pof adventure",
+    "vehjin noble necessities run domain of vabbi"
+   ],
+   "note": "Vehjin Noble Necessities Run (wiki: speak to the Overwhelmed Volunteer Steward near Vehjin Palace Waypoint)."
+  },
+  {
+   "chat_link": "[&BA8KAAA=]",
+   "map": "Domain of Vabbi",
+   "name": "Vehtendi Academy Waypoint",
+   "tags": [
+    "vehtendi school supply run",
+    "adventure",
+    "pof adventure",
+    "vehtendi school supply run domain of vabbi",
+    "griffon expert",
+    "griffon expert domain of vabbi",
+    "mount race",
+    "race to the finish",
+    "flying finish",
+    "flying finish domain of vabbi",
+    "race to the finish vabbi",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Vehtendi School Supply Run (wiki map table: Vehtendi Academy area; Academy Provisioner — medium confidence) + Griffon Expert, Vabbi (wiki 'Vabbian Griffon Expert' Getting there, Kodash Bazaar)."
+  },
+  {
+   "chat_link": "[&BHQKAAA=]",
+   "map": "Domain of Vabbi",
+   "name": "Market Ruins Waypoint",
+   "tags": [
+    "griffon master",
+    "adventure",
+    "pof adventure",
+    "griffon master domain of vabbi"
+   ],
+   "note": "Griffon Master, Vabbi (wiki 'Vabbian Griffon Master' Getting there: Skimmer to King Joko's Sky Garden, Kodash Bazaar)."
+  },
+  {
+   "chat_link": "[&BPoKAAA=]",
+   "map": "Domain of Istan",
+   "name": "Astralarium Waypoint",
+   "tags": [
+    "ancient weapons",
+    "adventure",
+    "living world adventure",
+    "ancient weapons domain of istan",
+    "griffon master",
+    "griffon master domain of istan"
+   ],
+   "note": "Ancient Weapons (wiki: speak to Quartermaster Soanso near Astralarium Waypoint; head southeast) + Griffon Master, Istan (wiki Astralarium area page — medium confidence)."
+  },
+  {
+   "chat_link": "[&BEMLAAA=]",
+   "map": "Sandswept Isles",
+   "name": "Atholma Waypoint",
+   "tags": [
+    "crystal corral",
+    "adventure",
+    "living world adventure",
+    "crystal corral sandswept isles",
+    "mount race",
+    "race to the finish",
+    "race to the finish olmakhan docks",
+    "race to the finish sandswept isles",
+    "skimmer race",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Crystal Corral (wiki: head south from Atholma Waypoint; start: Veteran Defector Gliffu, Damos Isle)."
+  },
+  {
+   "chat_link": "[&BCULAAA=]",
+   "map": "Sandswept Isles",
+   "name": "Anniogel Encampment Waypoint",
+   "tags": [
+    "griffon expert",
+    "adventure",
+    "living world adventure",
+    "griffon expert sandswept isles"
+   ],
+   "note": "Griffon Expert, Sandswept Isles (wiki 'Sandswept Isles Griffon Expert' Getting there, Eastern Complex)."
+  },
+  {
+   "chat_link": "[&BFALAAA=]",
+   "map": "Domain of Kourna",
+   "name": "Apizmic Grounds Waypoint",
+   "tags": [
+    "griffon master",
+    "adventure",
+    "living world adventure",
+    "griffon master domain of kourna"
+   ],
+   "note": "Griffon Master, Kourna (wiki Getting there, Dabiji Hollows)."
+  },
+  {
+   "chat_link": "[&BKYLAAA=]",
+   "map": "Thunderhead Peaks",
+   "name": "Revolution's Heart Waypoint",
+   "tags": [
+    "ice floe magnet run",
+    "adventure",
+    "living world adventure",
+    "ice floe magnet run thunderhead peaks",
+    "thunderhead keep volatile delivery",
+    "thunderhead keep volatile delivery thunderhead peaks"
+   ],
+   "note": "Ice Floe Magnet Run (AyinMaiden groups it under Revolution's Heart Waypoint — medium confidence; Observation Deck Waypoint at Thunderhead Keep is an uncompared alternative) + Thunderhead Keep Volatile Delivery (wiki: started by Olmakhan Windcaller at Refiner's Joy, south of Revolution's Heart Waypoint)."
+  },
+  {
+   "chat_link": "[&BPgLAAA=]",
+   "map": "Grothmar Valley",
+   "name": "Wardowns Waypoint",
+   "tags": [
+    "grothmar crater circuit",
+    "adventure",
+    "icebrood saga adventure",
+    "grothmar crater circuit grothmar valley"
+   ],
+   "note": "Grothmar Crater Circuit (GuildJen Bound by Blood: from Wardowns Waypoint, head to Blood Stand Stage; Time Trial NPC by the water's edge)."
+  },
+  {
+   "chat_link": "[&BHIMAAA=]",
+   "map": "Drizzlewood Coast",
+   "name": "Forward Camp Waypoint",
+   "tags": [
+    "arena of the wolverine",
+    "adventure",
+    "icebrood saga adventure",
+    "arena of the wolverine drizzlewood coast",
+    "flight of the eagle spirit",
+    "flight of the eagle spirit drizzlewood coast",
+    "the ox's yoke",
+    "the ox's yoke drizzlewood coast"
+   ],
+   "note": "Arena of the Wolverine (Drizzlewood has only two waypoints; arena at Archstone Coast, northern half — medium confidence) + Flight of the Eagle Spirit (wiki: run north-east from Forward Camp to Frostvein Dominion Camp) + The Ox's Yoke (wiki: shrine at Sentinel Bay, east of Forward Camp)."
+  },
+  {
+   "chat_link": "[&BBYNAAA=]",
+   "map": "New Kaineng City",
+   "name": "Garden Heights Waypoint",
+   "tags": [
+    "jade bot rally",
+    "adventure",
+    "eod adventure",
+    "jade bot rally new kaineng city"
+   ],
+   "note": "Jade Bot Rally, New Kaineng City (wiki Jade Bot Rally—Kaineng: 'right next to the Garden Heights Waypoint')."
+  },
+  {
+   "chat_link": "[&BMcMAAA=]",
+   "map": "The Echovald Wilds",
+   "name": "Mori Village Waypoint",
+   "tags": [
+    "jade bot rally",
+    "adventure",
+    "eod adventure",
+    "jade bot rally the echovald wilds",
+    "valdhertz crypts",
+    "mini dungeon",
+    "mini-dungeon",
+    "eod mini dungeon",
+    "valdhertz crypts the echovald wilds",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Jade Bot Rally, Echovald (wiki Jade Bot Rally—Echovald: 'west to the Mori Village (Mori Village Waypoint)'). Valdhertz Crypts mini dungeon (ProjektDyad: entrance in Quarry Forelands north of Mori Village Waypoint — [&BMcMAAA=]. Requires the hidden 'Cryptseeker' achievement to enter — click the Ancient Lantern at the gate)."
+  },
+  {
+   "chat_link": "[&BJkNAAA=]",
+   "map": "Gyala Delve",
+   "name": "Luxon Terminus Waypoint",
+   "tags": [
+    "jade bot rally",
+    "adventure",
+    "eod adventure",
+    "jade bot rally gyala delve"
+   ],
+   "note": "Jade Bot Rally, Gyala Delve (wiki Jade Bot Rally—Gyala Delve: 'right next to the Luxon Terminus Waypoint')."
+  },
+  {
+   "chat_link": "[&BKQNAAA=]",
+   "map": "Gyala Delve",
+   "name": "Jadepillar Point Waypoint",
+   "tags": [
+    "silent sands",
+    "adventure",
+    "eod adventure",
+    "silent sands gyala delve"
+   ],
+   "note": "Silent Sands (wiki: zip line at top of Fossilized Overlook, south of Jadepillar Point Waypoint)."
+  },
+  {
+   "chat_link": "[&BCsOAAA=]",
+   "map": "Skywatch Archipelago",
+   "name": "Beacon of Ages Waypoint",
+   "tags": [
+    "skyscale target practice",
+    "adventure",
+    "soto adventure",
+    "skyscale target practice skywatch archipelago"
+   ],
+   "note": "Skyscale Target Practice, Skywatch Archipelago (GuildJen: west of Beacon of Ages Waypoint, talk with Astral Ride Master Kensuke)."
+  },
+  {
+   "chat_link": "[&BHYOAAA=]",
+   "map": "Inner Nayos",
+   "name": "Forward Bivouac Waypoint",
+   "tags": [
+    "free kryptis essence",
+    "adventure",
+    "soto adventure",
+    "free kryptis essence inner nayos",
+    "reuniting lost kryptis",
+    "reuniting lost kryptis inner nayos"
+   ],
+   "note": "Free Kryptis Essence (wiki + GuildJen: east of Forward Bivouac Waypoint) + Reuniting Lost Kryptis (wiki: from Forward Bivouac Waypoint, move south to the Isolated Grasslands)."
+  },
+  {
+   "chat_link": "[&BN8OAAA=]",
+   "map": "Lowland Shore",
+   "name": "Harvest Shore Waypoint",
+   "tags": [
+    "harvest shore salmon run",
+    "adventure",
+    "janthir adventure",
+    "harvest shore salmon run lowland shore"
+   ],
+   "note": "Harvest Shore Salmon Run (forum + GuildJen: 'Start next to Harvest Shore Waypoint')."
+  },
+  {
+   "chat_link": "[&BCcPAAA=]",
+   "map": "Lowland Shore",
+   "name": "Astral Ward Moon Camp Waypoint",
+   "tags": [
+    "moon camp covert salmon run",
+    "adventure",
+    "janthir adventure",
+    "moon camp covert salmon run lowland shore",
+    "raven scouting",
+    "raven scouting lowland shore"
+   ],
+   "note": "Moon Camp Covert Salmon Run (GuildJen: 'Start below the Astral Ward Moon Camp Waypoint') + Raven Scouting (GuildJen: 'Start north of Astral Ward Moon Camp Waypoint')."
+  },
+  {
+   "chat_link": "[&BPsOAAA=]",
+   "map": "Lowland Shore",
+   "name": "Journeykin Outpost Waypoint",
+   "tags": [
+    "warclaw run",
+    "adventure",
+    "janthir adventure",
+    "warclaw run lowland shore"
+   ],
+   "note": "Warclaw Run, Lowland Shore (GuildJen: 'Start the adventure east of Journeykin Outpost Waypoint')."
+  },
+  {
+   "chat_link": "[&BLgOAAA=]",
+   "map": "Janthir Syntri",
+   "name": "Festering Basin Waypoint",
+   "tags": [
+    "save woodland creatures",
+    "adventure",
+    "janthir adventure",
+    "save woodland creatures janthir syntri"
+   ],
+   "note": "Save Woodland Creatures (GuildJen: south of Festering Basin Waypoint)."
+  },
+  {
+   "chat_link": "[&BCwPAAA=]",
+   "map": "Janthir Syntri",
+   "name": "Sanguine Crater Waypoint",
+   "tags": [
+    "the view from the top",
+    "adventure",
+    "janthir adventure",
+    "the view from the top janthir syntri"
+   ],
+   "note": "The View from the Top (wiki: 'Found just north of Sanguine Crater Waypoint')."
+  },
+  {
+   "chat_link": "[&BLcOAAA=]",
+   "map": "Janthir Syntri",
+   "name": "Forager's Hunt Waypoint",
+   "tags": [
+    "warclaw run",
+    "adventure",
+    "janthir adventure",
+    "warclaw run janthir syntri"
+   ],
+   "note": "Warclaw Run, Janthir Syntri (GuildJen + Ayinmaiden: south / southwest of Forager's Hunt Waypoint)."
+  },
+  {
+   "chat_link": "[&BFAPAAA=]",
+   "map": "Mistburned Barrens",
+   "name": "Alliance Staging Ground",
+   "tags": [
+    "hazardous research",
+    "adventure",
+    "janthir adventure",
+    "hazardous research mistburned barrens",
+    "search-and-rescue challenge",
+    "search-and-rescue challenge mistburned barrens",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "titanspawn rift"
+   ],
+   "note": "Hazardous Research + Search-and-Rescue Challenge (GuildJen routes via Alliance Staging Ground Waypoint; forum confirms players waypoint back there from the Garden of the Unseen / Hidden Sacrarium — caveated: nearest waypoint to the adventure NPC itself is not separately confirmed. Dataset name is 'Alliance Staging Ground', no 'Waypoint' suffix.)"
+  },
+  {
+   "chat_link": "[&BJwPAAA=]",
+   "map": "Shipwreck Strand",
+   "name": "Dark Leviathan Waypoint",
+   "tags": [
+    "castoran king crab",
+    "adventure",
+    "voe adventure",
+    "castoran king crab shipwreck strand",
+    "king crab of castora",
+    "glimmering arches grand prix",
+    "glimmering arches grand prix shipwreck strand",
+    "castora",
+    "shipwreck strand",
+    "voe",
+    "visions of eternity"
+   ],
+   "note": "Castoran King Crab (ProjektDyad: event spawns south of Dark Leviathan Waypoint; wiki also calls it 'King Crab of Castora') + Glimmering Arches Grand Prix (ProjektDyad: head straight west of Dark Leviathan Waypoint, talk with Castaway Caldus)."
+  },
+  {
+   "chat_link": "[&BMwPAAA=]",
+   "map": "Shipwreck Strand",
+   "name": "Hullgarden Pier Waypoint",
+   "tags": [
+    "flying fireworks",
+    "adventure",
+    "voe adventure",
+    "flying fireworks shipwreck strand",
+    "castora",
+    "shipwreck strand",
+    "voe",
+    "visions of eternity",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "castora rift"
+   ],
+   "note": "Flying Fireworks (wiki: head west from Hullgarden Pier Waypoint, then use a skyscale to ascend the cliff; talk to Astral Ward Illuminate Lightburn)."
+  },
+  {
+   "chat_link": "[&BJEPAAA=]",
+   "map": "Shipwreck Strand",
+   "name": "Pub Canach Waypoint",
+   "tags": [
+    "skimmer-net scramble",
+    "adventure",
+    "voe adventure",
+    "skimmer-net scramble shipwreck strand",
+    "'booter's path",
+    "mini dungeon",
+    "mini-dungeon",
+    "voe mini dungeon",
+    "'booter's path shipwreck strand",
+    "castora",
+    "shipwreck strand",
+    "voe",
+    "visions of eternity",
+    "hammerhart rumble",
+    "hammerhart rumble shipwreck strand",
+    "meta event",
+    "world boss"
+   ],
+   "note": "Skimmer-Net Scramble (ProjektDyad: southeast from Pub Canach Waypoint, speak with Castaway Kae; GuildJen: at Jetsam Point). 'Booter's Path mini dungeon (wiki: from Pub Canach Waypoint, travel north and west to the Twisting Hollows; the entrance is on the northern side of the Hollows). In both the wiki Mini-dungeons and Jumping puzzles categories."
+  },
+  {
+   "chat_link": "[&BIoPAAA=]",
+   "map": "Starlit Weald",
+   "name": "Hunter's Camp Waypoint",
+   "tags": [
+    "old magic",
+    "adventure",
+    "voe adventure",
+    "old magic starlit weald",
+    "ley-line rider",
+    "ley-line rider starlit weald",
+    "castora",
+    "starlit weald",
+    "voe",
+    "visions of eternity"
+   ],
+   "note": "Old Magic (ProjektDyad: Lost Basilica, southwest from Hunter's Camp Waypoint) + Ley-Line Rider (ProjektDyad: head northwest of Hunter's Camp Waypoint, speak with Specialist Nobu)."
+  },
+  {
+   "chat_link": "[&BBwHAAA=]",
+   "map": "Labyrinthine Cliffs",
+   "name": "Bazaar Docks Waypoint",
+   "tags": [
+    "crystal collection",
+    "adventure",
+    "festival adventure",
+    "crystal collection labyrinthine cliffs",
+    "flying dolyak",
+    "flying dolyak labyrinthine cliffs",
+    "labyrinthine skiffs",
+    "labyrinthine skiffs labyrinthine cliffs",
+    "skimmer slalom",
+    "skimmer slalom labyrinthine cliffs",
+    "mount race",
+    "skimmer race",
+    "skimmer slalom race",
+    "southsun survival"
+   ],
+   "note": "Crystal Collection + Flying Dolyak + Labyrinthine Skiffs (Festival of the Four Winds, wiki activities table 'Closest waypoint' column) + Skimmer Slalom (same table column lists Bazaar Docks; the adventure page's Getting there mentions Sky Docks — table column taken as the direct statement, flagged for a second look). Daily Activity — Southsun Survival (wiki: located in Labyrinthine Cliffs, accessed through Evon Gnashblade at Bazaar Docks)."
+  },
+  {
+   "chat_link": "[&BB0HAAA=]",
+   "map": "Labyrinthine Cliffs",
+   "name": "Sky Docks Waypoint",
+   "tags": [
+    "griffon expert",
+    "adventure",
+    "festival adventure",
+    "griffon expert labyrinthine cliffs",
+    "griffon master",
+    "griffon master labyrinthine cliffs",
+    "sanctum sprint",
+    "sanctum sprint labyrinthine cliffs",
+    "aspect arena"
+   ],
+   "note": "Griffon Expert + Griffon Master, Labyrinthine Cliffs (Festival of the Four Winds, wiki table: Expert starts on the Phoenix Dawn airship south of the waypoint; Master starts on the stone pillar northwest of Sky Docks Waypoint). Daily Activity — Sanctum Sprint + Aspect Arena (Festival of the Four Winds wiki activities table: closest waypoint Sky Docks Waypoint; speak to Zephyrite [Aspect Arena] on the high cliffs in Sky Docks; Aspect Master near Zephyr Sanctum entrance, just south of Sky Docks Waypoint)."
+  },
+  {
+   "chat_link": "[&BN0AAAA=]",
+   "map": "Diessa Plateau",
+   "name": "Nageling Waypoint",
+   "tags": [
+    "ghostfire run",
+    "adventure",
+    "roller beetle adventure",
+    "ghostfire run diessa plateau",
+    "roller beetle race",
+    "mount race",
+    "ghostfire run race",
+    "roller beetle racing"
+   ],
+   "note": "Ghostfire Run, Roller Beetle Time Trial (MetaBattle: track at Noxin Dells, Diessa Plateau; Nageling is the Diessa waypoint in the wiki's Racing Week list — derived)."
+  },
+  {
+   "chat_link": "[&BLsAAAA=]",
+   "map": "Snowden Drifts",
+   "name": "Torstvedt Homestead Waypoint",
+   "tags": [
+    "jormag's fang",
+    "adventure",
+    "roller beetle adventure",
+    "jormag's fang snowden drifts",
+    "roller beetle race",
+    "mount race",
+    "jormag's fang race",
+    "roller beetle racing"
+   ],
+   "note": "Jormag's Fang, Roller Beetle Time Trial (MetaBattle: track at Valslake, Snowden Drifts; Torstvedt Homestead is the Snowden waypoint in the wiki's list — derived)."
+  },
+  {
+   "chat_link": "[&BBMAAAA=]",
+   "map": "Kessex Hills",
+   "name": "Overlake Haven Waypoint",
+   "tags": [
+    "kessex corner",
+    "adventure",
+    "roller beetle adventure",
+    "kessex corner kessex hills"
+   ],
+   "note": "Kessex Corner, Roller Beetle Time Trial (MetaBattle: track at Giant's Passage, Kessex Hills; Overlake Haven is the Kessex waypoint in the wiki's list — derived)."
+  },
+  {
+   "chat_link": "[&BC0EAAA=]",
+   "map": "Lion's Arch",
+   "name": "Diverse Ledges Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles sanctum harbor",
+    "diving goggles sanctum harbor",
+    "dive master lion's arch",
+    "diving goggles lion's arch"
+   ],
+   "note": "Dive Master #1: Lion's Arch — Sanctum Harbor diving goggles (Dulfy Dive Master guide)."
+  },
+  {
+   "chat_link": "[&BM0DAAA=]",
+   "map": "Gendarran Fields",
+   "name": "Brigantine Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles brigantine isles",
+    "diving goggles brigantine isles",
+    "dive master gendarran fields",
+    "diving goggles gendarran fields"
+   ],
+   "note": "Dive Master #3: Gendarran Fields #1 — Brigantine Isles diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BJIBAAA=]",
+   "map": "Gendarran Fields",
+   "name": "Vigil Keep Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles vigil keep",
+    "diving goggles vigil keep",
+    "dive master gendarran fields",
+    "diving goggles gendarran fields",
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "lady derwena",
+    "derwena",
+    "psna saturday"
+   ],
+   "note": "Dive Master #4: Gendarran Fields #2 — Vigil Keep diving goggles (Dulfy). PSNA — Lady Derwena (Kryta), Saturday: Vigil Keep Waypoint, Gendarran Fields. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BKYAAAA=]",
+   "map": "Harathi Hinterlands",
+   "name": "Shieldbluff Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles shieldbluff point",
+    "diving goggles shieldbluff point",
+    "dive master harathi hinterlands",
+    "diving goggles harathi hinterlands",
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "lady derwena",
+    "derwena",
+    "psna wednesday"
+   ],
+   "note": "Dive Master #6: Harathi Hinterlands #1 — Shieldbluff Point diving goggles (Dulfy). PSNA — Lady Derwena (Kryta), Wednesday: Shieldbluff Waypoint, Harathi Hinterlands. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BK8AAAA=]",
+   "map": "Harathi Hinterlands",
+   "name": "Bridgewatch Camp Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles greenflin plateau",
+    "diving goggles greenflin plateau",
+    "dive master harathi hinterlands",
+    "diving goggles harathi hinterlands"
+   ],
+   "note": "Dive Master #7: Harathi Hinterlands #2 — Greenflin Plateau diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BKcBAAA=]",
+   "map": "Bloodtide Coast",
+   "name": "Remanda Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles remanda saltmarsh",
+    "diving goggles remanda saltmarsh",
+    "dive master bloodtide coast",
+    "diving goggles bloodtide coast"
+   ],
+   "note": "Dive Master #8: Bloodtide Coast — Remanda Saltmarsh, Bloody Bill's Base diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BIUBAAA=]",
+   "map": "Plains of Ashford",
+   "name": "Adorea Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles lake adorea",
+    "diving goggles lake adorea",
+    "dive master plains of ashford",
+    "diving goggles plains of ashford"
+   ],
+   "note": "Dive Master #9: Plains of Ashford #1 — Lake Adorea diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BGQBAAA=]",
+   "map": "Diessa Plateau",
+   "name": "Breachwater Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles breachwater lake",
+    "diving goggles breachwater lake",
+    "dive master diessa plateau",
+    "diving goggles diessa plateau"
+   ],
+   "note": "Dive Master #11: Diessa Plateau #1 — Breachwater Lake diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BMkDAAA=]",
+   "map": "Diessa Plateau",
+   "name": "Manbane's Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles manbane's outcrop",
+    "diving goggles manbane's outcrop",
+    "dive master diessa plateau",
+    "diving goggles diessa plateau",
+    "guild mission",
+    "guild missions",
+    "guild rush",
+    "devourer burrow",
+    "devourer burrow guild rush",
+    "guild rush diessa plateau"
+   ],
+   "note": "Dive Master #12: Diessa Plateau #2 — Manbane's Outcrop diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BNUAAAA=]",
+   "map": "Fields of Ruin",
+   "name": "Summit Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles warrior's crown",
+    "diving goggles warrior's crown",
+    "dive master fields of ruin",
+    "diving goggles fields of ruin"
+   ],
+   "note": "Dive Master #14: Fields of Ruin #2 — Warrior's Crown diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BOUBAAA=]",
+   "map": "Iron Marches",
+   "name": "Warhound Village Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles sunken halls of clarent",
+    "diving goggles sunken halls of clarent",
+    "dive master iron marches",
+    "diving goggles iron marches"
+   ],
+   "note": "Dive Master #16: Iron Marches #2 — Sunken Halls of Clarent diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BLUEAAA=]",
+   "map": "Rata Sum",
+   "name": "Incubation Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles idea incubation lab",
+    "diving goggles idea incubation lab",
+    "dive master rata sum",
+    "diving goggles rata sum"
+   ],
+   "note": "Dive Master #18: Rata Sum — Idea Incubation Lab diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BD0BAAA=]",
+   "map": "Caledon Forest",
+   "name": "Titan's Staircase Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles dominion of winds",
+    "diving goggles dominion of winds",
+    "dive master caledon forest",
+    "diving goggles caledon forest"
+   ],
+   "note": "Dive Master #20: Caledon Forest — Dominion of Winds diving goggles, from the bridge at Titan's Staircase (Dulfy)."
+  },
+  {
+   "chat_link": "[&BEUAAAA=]",
+   "map": "Metrica Province",
+   "name": "Hexane Regrade Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles hexane regrade",
+    "diving goggles hexane regrade",
+    "dive master metrica province",
+    "diving goggles metrica province"
+   ],
+   "note": "Dive Master #21: Metrica Province #1 — Hexane Regrade waterfall diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BK8EAAA=]",
+   "map": "Metrica Province",
+   "name": "Loch Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles loch jezt",
+    "diving goggles loch jezt",
+    "dive master metrica province",
+    "diving goggles metrica province"
+   ],
+   "note": "Dive Master #22: Metrica Province #2 — Loch Jezt diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BGEAAAA=]",
+   "map": "Brisban Wildlands",
+   "name": "Brilitine Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles gotala cascade",
+    "diving goggles gotala cascade",
+    "dive master brisban wildlands",
+    "diving goggles brisban wildlands"
+   ],
+   "note": "Dive Master #23: Brisban Wildlands #1 — Gotala Cascade diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BGAAAAA=]",
+   "map": "Brisban Wildlands",
+   "name": "East End Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles skrittsburgh east end",
+    "diving goggles skrittsburgh east end",
+    "dive master brisban wildlands",
+    "diving goggles brisban wildlands"
+   ],
+   "note": "Dive Master #24: Brisban Wildlands #2 — Skrittsburgh East End diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BHYBAAA=]",
+   "map": "Wayfarer Foothills",
+   "name": "Taigan Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles taigan groves",
+    "diving goggles taigan groves",
+    "dive master wayfarer foothills",
+    "diving goggles wayfarer foothills"
+   ],
+   "note": "Dive Master #27: Wayfarer Foothills #1 — Taigan Groves diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BMMDAAA=]",
+   "map": "Wayfarer Foothills",
+   "name": "Grawlenfjord Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles grawlenfjord",
+    "diving goggles grawlenfjord",
+    "dive master wayfarer foothills",
+    "diving goggles wayfarer foothills"
+   ],
+   "note": "Dive Master #28: Wayfarer Foothills #2 — Grawlenfjord diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BOYAAAA=]",
+   "map": "Lornar's Pass",
+   "name": "Demon's Maw Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles demon's maw",
+    "diving goggles demon's maw",
+    "dive master lornar's pass",
+    "diving goggles lornar's pass"
+   ],
+   "note": "Dive Master #29: Lornar's Pass #1 — Demon's Maw diving goggles (Dulfy)."
+  },
+  {
+   "chat_link": "[&BEcCAAA=]",
+   "map": "Timberline Falls",
+   "name": "Coil Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles nonmoa lake",
+    "diving goggles nonmoa lake",
+    "dive master timberline falls",
+    "diving goggles timberline falls"
+   ],
+   "note": "Dive Master #32: Timberline Falls #2 — Nonmoa Lake diving goggles, at the krait tower (Dulfy)."
+  },
+  {
+   "chat_link": "[&BO8CAAA=]",
+   "map": "Straits of Devastation",
+   "name": "Thorn Pass Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles terzetto bay",
+    "diving goggles terzetto bay",
+    "dive master straits of devastation",
+    "diving goggles straits of devastation"
+   ],
+   "note": "Dive Master #34: Straits of Devastation #1 — Terzetto Bay diving goggles, at the Fort Trinity docked airship (Dulfy)."
+  },
+  {
+   "chat_link": "[&BLACAAA=]",
+   "map": "Malchor's Leap",
+   "name": "Tempest Waypoint",
+   "tags": [
+    "dive master",
+    "collection",
+    "diving goggles",
+    "dive goggles",
+    "dive goggles cathedral of zephyrs",
+    "diving goggles cathedral of zephyrs",
+    "dive master malchor's leap",
+    "diving goggles malchor's leap"
+   ],
+   "note": "Dive Master #36: Malchor's Leap — Cathedral of Zephyrs, Sculptor's End diving goggles (Dulfy; dataset name is 'Tempest Waypoint')."
+  },
+  {
+   "chat_link": "[&BPkAAAA=]",
+   "map": "Queensdale",
+   "name": "Ojon's Lumbermill Waypoint",
+   "tags": [
+    "bad neighborhood",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "bad neighborhood queensdale",
+    "forest spider",
+    "spider",
+    "spiders",
+    "spider leg",
+    "venom sac",
+    "tiny venom sac"
+   ],
+   "note": "Bad Neighborhood mini dungeon (Dulfy Reborn: go to Ojon's Lumbermill Waypoint, SE of Divinity's Reach; alt approach from Shaemoor Waypoint). | MATERIAL: Mobs: Hero of the People guide — Forest Spiders east of Ojon's Lumbermill Waypoint, Queensdale."
+  },
+  {
+   "chat_link": "[&BNwAAAA=]",
+   "map": "Diessa Plateau",
+   "name": "Font of Rhand Waypoint",
+   "tags": [
+    "flame temple tombs",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "flame temple tombs diessa plateau"
+   ],
+   "note": "Flame Temple Tombs mini dungeon (TheGamer Mawdrey guide: Font of Rhand Waypoint [&BNwAAAA=]; .ru mirror locations infobox. Note: the portal opens only after the Flame Legion Battles meta event)."
+  },
+  {
+   "chat_link": "[&BGUCAAA=]",
+   "map": "Dredgehaunt Cliffs",
+   "name": "Wyrmblood Waypoint",
+   "tags": [
+    "forsaken fortune",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "forsaken fortune dredgehaunt cliffs"
+   ],
+   "note": "Forsaken Fortune mini dungeon (wiki Getting there; Dulfy: entrance just west of Wyrmblood Waypoint, across the icy bridge). A dungeon/JP hybrid — Explorer achievement, not the JP achievement."
+  },
+  {
+   "chat_link": "[&BD4BAAA=]",
+   "map": "Caledon Forest",
+   "name": "Falias Thorp Waypoint",
+   "tags": [
+    "tears of itlaocol",
+    "mini dungeon",
+    "mini-dungeon",
+    "core mini dungeon",
+    "tears of itlaocol caledon forest"
+   ],
+   "note": "Tears of Itlaocol mini dungeon (.ru mirror: soloable mini-dungeon in Caledon Forest, south of Falias Thorp Waypoint)."
+  },
+  {
+   "chat_link": "[&BPkMAAA=]",
+   "map": "The Echovald Wilds",
+   "name": "Jade Gate Waypoint",
+   "tags": [
+    "vasburg armory",
+    "mini dungeon",
+    "mini-dungeon",
+    "eod mini dungeon",
+    "vasburg armory the echovald wilds"
+   ],
+   "note": "Vasburg Armory mini dungeon (ProjektDyad: start at Jade Gate Waypoint — [&BPkMAAA=] and go southwest to Teleri Village — [&BCkNAAA=], then north into the cave)."
+  },
+  {
+   "chat_link": "[&BA8CAAA=]",
+   "map": "Fireheart Rise",
+   "name": "Haymal Gore",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "verma giftrender",
+    "verma",
+    "psna monday"
+   ],
+   "note": "PSNA — Verma Giftrender (Ascalon), Monday: Haymal Gore, Fireheart Rise. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BKYBAAA=]",
+   "map": "Bloodtide Coast",
+   "name": "Marshwatch Haven Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "lady derwena",
+    "derwena",
+    "psna monday"
+   ],
+   "note": "PSNA — Lady Derwena (Kryta), Monday: Marshwatch Haven Waypoint, Bloodtide Coast. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BEwDAAA=]",
+   "map": "Caledon Forest",
+   "name": "Lionguard Waystation Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "the fox",
+    "fox",
+    "psna monday"
+   ],
+   "note": "PSNA — The Fox (Maguuma Jungle), Monday: Lionguard Waystation Waypoint, Caledon Forest. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BIcHAAA=]",
+   "map": "Dry Top",
+   "name": "Restoration Refuge",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "mehem the traveled",
+    "mehem",
+    "psna monday"
+   ],
+   "note": "PSNA — Mehem the Traveled (Maguuma Wastes), Monday: Restoration Refuge, Dry Top. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BNIEAAA=]",
+   "map": "Straits of Devastation",
+   "name": "Rally Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "specialist yana",
+    "yana",
+    "psna monday"
+   ],
+   "note": "PSNA — Specialist Yana (Ruins of Orr), Monday: Rally Waypoint, Straits of Devastation. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BIMCAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Ridgerock Camp Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "despina katelyn",
+    "katelyn",
+    "despina katyn",
+    "katyn",
+    "psna monday"
+   ],
+   "note": "PSNA — Despina Katelyn (Shiverpeaks), Monday: Ridgerock Camp Waypoint, Frostgorge Sound. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BIMBAAA=]",
+   "map": "Plains of Ashford",
+   "name": "Temperus Point Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "verma giftrender",
+    "verma",
+    "psna tuesday"
+   ],
+   "note": "PSNA — Verma Giftrender (Ascalon), Tuesday: Temperus Point Waypoint, Plains of Ashford. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BBkAAAA=]",
+   "map": "Kessex Hills",
+   "name": "Garenhoff",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "lady derwena",
+    "derwena",
+    "psna tuesday"
+   ],
+   "note": "PSNA — Lady Derwena (Kryta), Tuesday: Garenhoff, Kessex Hills. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BKgCAAA=]",
+   "map": "Malchor's Leap",
+   "name": "Waste Hollows Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "specialist yana",
+    "yana",
+    "psna tuesday"
+   ],
+   "note": "PSNA — Specialist Yana (Ruins of Orr), Tuesday: Waste Hollows Waypoint, Malchor's Leap. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BGQCAAA=]",
+   "map": "Dredgehaunt Cliffs",
+   "name": "Travelen's Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "despina katelyn",
+    "katelyn",
+    "despina katyn",
+    "katyn",
+    "psna tuesday"
+   ],
+   "note": "PSNA — Despina Katelyn (Shiverpeaks), Tuesday: Travelen's Waypoint, Dredgehaunt Cliffs. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BPEBAAA=]",
+   "map": "Blazeridge Steppes",
+   "name": "Ferrusatos Village",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "verma giftrender",
+    "verma",
+    "psna wednesday"
+   ],
+   "note": "PSNA — Verma Giftrender (Ascalon), Wednesday: Ferrusatos Village, Blazeridge Steppes. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BMIBAAA=]",
+   "map": "Sparkfly Fen",
+   "name": "Swampwatch Post",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "the fox",
+    "fox",
+    "psna wednesday"
+   ],
+   "note": "PSNA — The Fox (Maguuma Jungle), Wednesday: Swampwatch Post, Sparkfly Fen. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BH4HAAA=]",
+   "map": "Dry Top",
+   "name": "Town of Prosperity",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "mehem the traveled",
+    "mehem",
+    "psna wednesday"
+   ],
+   "note": "PSNA — Mehem the Traveled (Maguuma Wastes), Wednesday: Town of Prosperity, Dry Top. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BP0CAAA=]",
+   "map": "Cursed Shore",
+   "name": "Caer Shadowfain",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "specialist yana",
+    "yana",
+    "psna wednesday"
+   ],
+   "note": "PSNA — Specialist Yana (Ruins of Orr), Wednesday: Caer Shadowfain, Cursed Shore. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BDgDAAA=]",
+   "map": "Snowden Drifts",
+   "name": "Mennerheim",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "despina katelyn",
+    "katelyn",
+    "despina katyn",
+    "katyn",
+    "psna wednesday"
+   ],
+   "note": "PSNA — Despina Katelyn (Shiverpeaks), Wednesday: Mennerheim, Snowden Drifts. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BOcBAAA=]",
+   "map": "Iron Marches",
+   "name": "Village of Scalecatch Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "verma giftrender",
+    "verma",
+    "psna thursday"
+   ],
+   "note": "PSNA — Verma Giftrender (Ascalon), Thursday: Village of Scalecatch Waypoint, Iron Marches. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BIMAAAA=]",
+   "map": "Queensdale",
+   "name": "Altar Brook Trading Post",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "lady derwena",
+    "derwena",
+    "psna thursday"
+   ],
+   "note": "PSNA — Lady Derwena (Kryta), Thursday: Altar Brook Trading Post, Queensdale. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BF0AAAA=]",
+   "map": "Brisban Wildlands",
+   "name": "Wendon Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "the fox",
+    "fox",
+    "psna thursday"
+   ],
+   "note": "PSNA — The Fox (Maguuma Jungle), Thursday: Wendon Waypoint, Brisban Wildlands. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BKsHAAA=]",
+   "map": "The Silverwastes",
+   "name": "Blue Oasis",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "mehem the traveled",
+    "mehem",
+    "psna thursday"
+   ],
+   "note": "PSNA — Mehem the Traveled (Maguuma Wastes), Thursday: Blue Oasis, The Silverwastes. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BO4CAAA=]",
+   "map": "Straits of Devastation",
+   "name": "Fort Trinity Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "specialist yana",
+    "yana",
+    "psna thursday",
+    "psna sunday",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "PSNA — Specialist Yana (Ruins of Orr), Thursday: Fort Trinity Waypoint, Straits of Devastation. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. PSNA — Specialist Yana (Ruins of Orr), Sunday: Fort Trinity Waypoint, Straits of Devastation. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BF0GAAA=]",
+   "map": "Lornar's Pass",
+   "name": "Rocklair",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "despina katelyn",
+    "katelyn",
+    "despina katyn",
+    "katyn",
+    "psna thursday"
+   ],
+   "note": "PSNA — Despina Katelyn (Shiverpeaks), Thursday: Rocklair, Lornar's Pass. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BNMAAAA=]",
+   "map": "Fields of Ruin",
+   "name": "Hawkgates Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "verma giftrender",
+    "verma",
+    "psna friday"
+   ],
+   "note": "PSNA — Verma Giftrender (Ascalon), Friday: Hawkgates Waypoint, Fields of Ruin. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BMwCAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Bard's Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "the fox",
+    "fox",
+    "psna friday"
+   ],
+   "note": "PSNA — The Fox (Maguuma Jungle), Friday: Bard's Waypoint, Mount Maelstrom. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BJQHAAA=]",
+   "map": "Dry Top",
+   "name": "Repair Station",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "mehem the traveled",
+    "mehem",
+    "psna friday"
+   ],
+   "note": "PSNA — Mehem the Traveled (Maguuma Wastes), Friday: Repair Station, Dry Top. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BJsCAAA=]",
+   "map": "Malchor's Leap",
+   "name": "Shelter Docks",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "specialist yana",
+    "yana",
+    "psna friday"
+   ],
+   "note": "PSNA — Specialist Yana (Ruins of Orr), Friday: Shelter Docks, Malchor's Leap. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BHsBAAA=]",
+   "map": "Wayfarer Foothills",
+   "name": "Dolyak Pass Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "despina katelyn",
+    "katelyn",
+    "despina katyn",
+    "katyn",
+    "psna friday"
+   ],
+   "note": "PSNA — Despina Katelyn (Shiverpeaks), Friday: Dolyak Pass Waypoint, Wayfarer Foothills. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BBABAAA=]",
+   "map": "Diessa Plateau",
+   "name": "Bovarin Estate",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "verma giftrender",
+    "verma",
+    "psna saturday"
+   ],
+   "note": "PSNA — Verma Giftrender (Ascalon), Saturday: Bovarin Estate, Diessa Plateau. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BLkCAAA=]",
+   "map": "Mount Maelstrom",
+   "name": "Gallant's Folly",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "the fox",
+    "fox",
+    "psna saturday"
+   ],
+   "note": "PSNA — The Fox (Maguuma Jungle), Saturday: Gallant's Folly, Mount Maelstrom. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BBEDAAA=]",
+   "map": "Cursed Shore",
+   "name": "Augur's Torch",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "specialist yana",
+    "yana",
+    "psna saturday"
+   ],
+   "note": "PSNA — Specialist Yana (Ruins of Orr), Saturday: Augur's Torch, Cursed Shore. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BEICAAA=]",
+   "map": "Timberline Falls",
+   "name": "Balddistead",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "despina katelyn",
+    "katelyn",
+    "despina katyn",
+    "katyn",
+    "psna saturday"
+   ],
+   "note": "PSNA — Despina Katelyn (Shiverpeaks), Saturday: Balddistead, Timberline Falls. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BCECAAA=]",
+   "map": "Fireheart Rise",
+   "name": "Snow Ridge Camp Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "verma giftrender",
+    "verma",
+    "psna sunday"
+   ],
+   "note": "PSNA — Verma Giftrender (Ascalon), Sunday: Snow Ridge Camp Waypoint, Fireheart Rise. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC."
+  },
+  {
+   "chat_link": "[&BC0AAAA=]",
+   "map": "Bloodtide Coast",
+   "name": "Mudflat Camp",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "lady derwena",
+    "derwena",
+    "psna sunday"
+   ],
+   "note": "PSNA — Lady Derwena (Kryta), Sunday: Mudflat Camp, Bloodtide Coast. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BIkHAAA=]",
+   "map": "Dry Top",
+   "name": "Azarr's Arbor",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "mehem the traveled",
+    "mehem",
+    "psna sunday"
+   ],
+   "note": "PSNA — Mehem the Traveled (Maguuma Wastes), Sunday: Azarr's Arbor, Dry Top. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. Published code is the POI, not a waypoint — tagged as-is; do not substitute the nearby waypoint."
+  },
+  {
+   "chat_link": "[&BIUCAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Blue Ice Shining Waypoint",
+   "tags": [
+    "psna",
+    "pact supply",
+    "pact supply network agent",
+    "pact supply network",
+    "pact scout mapping materials",
+    "mapping materials",
+    "daily psna",
+    "despina katelyn",
+    "katelyn",
+    "despina katyn",
+    "katyn",
+    "psna sunday",
+    "skelk",
+    "alpine skelk",
+    "skelk farm",
+    "arctodus",
+    "vial of potent blood",
+    "potent blood",
+    "vial of powerful blood",
+    "powerful blood",
+    "large fang",
+    "vicious fang",
+    "large claw",
+    "vicious claw"
+   ],
+   "note": "PSNA — Despina Katelyn (Shiverpeaks), Sunday: Blue Ice Shining Waypoint, Frostgorge Sound. Pact Supply Network Agent, fixed 7-day rotation, locations change 08:00 UTC. | MATERIAL: Mobs: Almarsguides Frostgorge Skelk & Arctodus — port to Blue Ice Shining Waypoint, skelk + arctodus camp; commonly Vial of Potent Blood, Large Fang, less commonly Vial of Powerful Blood, Vicious Fang."
+  },
+  {
+   "chat_link": "[&BMAPAAA=]",
+   "map": "Starlit Weald",
+   "name": "Foothold Bivouac Waypoint",
+   "tags": [
+    "castora",
+    "starlit weald",
+    "voe",
+    "visions of eternity",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "castora rift"
+   ],
+   "note": "Rift Hunting entry waypoint (central / main entry) — v1.9. Rifts spawn randomly on the map; use Scan for Rift once there. Not a rift spawn point."
+  },
+  {
+   "chat_link": "[&BJ4PAAA=]",
+   "map": "Starlit Weald",
+   "name": "Priory Expedition Waypoint",
+   "tags": [
+    "castora",
+    "starlit weald",
+    "voe",
+    "visions of eternity"
+   ]
+  },
+  {
+   "chat_link": "[&BOQPAAA=]",
+   "map": "Eternity's Garden",
+   "name": "Deepwood Outpost Waypoint",
+   "tags": [
+    "castora",
+    "eternity's garden",
+    "voe",
+    "visions of eternity"
+   ]
+  },
+  {
+   "chat_link": "[&BPwPAAA=]",
+   "map": "Eternity's Garden",
+   "name": "Pilgrim's Rest Waypoint",
+   "tags": [
+    "castora",
+    "eternity's garden",
+    "voe",
+    "visions of eternity",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "castora rift"
+   ],
+   "note": "Rift Hunting entry waypoint (central / main entry) — v1.9. Rifts spawn randomly on the map; use Scan for Rift once there. Not a rift spawn point."
+  },
+  {
+   "chat_link": "[&BPAPAAA=]",
+   "map": "Eternity's Garden",
+   "name": "Sanctum Exterior Waypoint",
+   "tags": [
+    "castora",
+    "eternity's garden",
+    "voe",
+    "visions of eternity",
+    "skimmer relic scour",
+    "adventure",
+    "voe adventure",
+    "skimmer relic scour eternity's garden"
+   ],
+   "note": "Skimmer Relic Scour adventure starts NW of Sanctum Exterior Waypoint (ProjektDyad Eternity's Garden Mastery)."
+  },
+  {
+   "chat_link": "[&BPoPAAA=]",
+   "map": "Eternity's Garden",
+   "name": "Temple of Abnegation Waypoint",
+   "tags": [
+    "castora",
+    "eternity's garden",
+    "voe",
+    "visions of eternity",
+    "temple of abnegation jumping puzzle",
+    "jumping puzzle",
+    "jp",
+    "voe jumping puzzle",
+    "temple of abnegation",
+    "mini dungeon",
+    "mini-dungeon",
+    "voe mini dungeon",
+    "chamber of regret"
+   ],
+   "note": "Temple of Abnegation jumping puzzle, same-named waypoint (wiki Eternity's Garden achievements). Temple of Abnegation is also a mini dungeon (chain starts at this waypoint, GuildJen Eternity's Garden Achievements). Chamber of Regret is the third chamber inside it, not a separate mini dungeon (ProjektDyad)."
+  },
+  {
+   "chat_link": "[&BB8QAAA=]",
+   "map": "Leyspring Hollows",
+   "name": "Doyen's Adytum Waypoint",
+   "tags": [
+    "castora",
+    "leyspring hollows",
+    "voe",
+    "visions of eternity",
+    "coleopteran cavern",
+    "coleopteran cave",
+    "jumping puzzle",
+    "jp",
+    "voe jumping puzzle"
+   ],
+   "note": "Coleopteran Cavern/Cave jumping puzzle, Doyen's Adytum Mastery Insight inside it (GuildJen Leyspring Hollows Mastery Insights; JawseGaming video)."
+  },
+  {
+   "chat_link": "[&BDYQAAA=]",
+   "map": "Leyspring Hollows",
+   "name": "Hall of Assemblage Waypoint",
+   "tags": [
+    "castora",
+    "leyspring hollows",
+    "voe",
+    "visions of eternity",
+    "depths of cruelty",
+    "meta event",
+    "depths of cruelty leyspring hollows",
+    "inquest cache",
+    "jumping puzzle",
+    "jp",
+    "voe jumping puzzle",
+    "from ruins to riches",
+    "mini dungeon",
+    "mini-dungeon",
+    "voe mini dungeon",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "castora rift"
+   ],
+   "note": "Depths of Cruelty meta starts at Hall of Assemblage (GuildJen). Inquest Cache JP ends above Ley Distributary, nearest verified waypoint Hall of Assemblage (GuildJen). From Ruins to Riches mini-dungeon ends at Navarium Core, NW of Hall of Assemblage (GuildJen) — medium confidence on that one."
+  },
+  {
+   "chat_link": "[&BBYQAAA=]",
+   "map": "Leyspring Hollows",
+   "name": "Sealed Vestibule Waypoint",
+   "tags": [
+    "castora",
+    "leyspring hollows",
+    "voe",
+    "visions of eternity",
+    "aetherlocation detective",
+    "adventure",
+    "voe adventure",
+    "aetherlocation detective leyspring hollows"
+   ],
+   "note": "Aetherlocation Detective adventure starts NW of Sealed Vestibule Waypoint (ProjektDyad Leyspring Hollows Mastery)."
+  },
+  {
+   "chat_link": "[&BI8PAAA=]",
+   "map": "Comosus Isle",
+   "name": "Homestead Waypoint",
+   "tags": [
+    "castora",
+    "comosus isle",
+    "voe",
+    "visions of eternity",
+    "homestead"
+   ],
+   "note": "Comosus Isle is the VoE homestead instance, region Castora in the API dataset."
+  },
+  {
+   "chat_link": "[&BHUPAAA=]",
+   "map": "Shipwreck Strand",
+   "name": "Hammerhart Battery",
+   "tags": [
+    "hammerhart rumble",
+    "meta event",
+    "world boss",
+    "hammerhart rumble shipwreck strand",
+    "castora",
+    "shipwreck strand"
+   ],
+   "note": "Hammerhart Rumble! meta occurs at Hammerhart Battery every 2h (GuildJen Shipwreck Strand Achievements)."
+  },
+  {
+   "chat_link": "[&BG8PAAA=]",
+   "map": "Starlit Weald",
+   "name": "Consecrated Piazza",
+   "tags": [
+    "secrets of the weald",
+    "meta event",
+    "secrets of the weald starlit weald",
+    "castora",
+    "starlit weald"
+   ],
+   "note": "Secrets of the Weald meta occurs at Consecrated Piazza every 2h (GuildJen Starlit Weald Achievements)."
+  },
+  {
+   "chat_link": "[&BP8PAAA=]",
+   "map": "Eternity's Garden",
+   "name": "The Forge",
+   "tags": [
+    "shackles of the ancients",
+    "meta event",
+    "shackles of the ancients eternity's garden",
+    "castora",
+    "eternity's garden"
+   ],
+   "note": "Shackles of the Ancients meta starts at The Forge every 2h (GuildJen Eternity's Garden Achievements)."
+  },
+  {
+   "chat_link": "[&BOYPAAA=]",
+   "map": "Eternity's Garden",
+   "name": "Kitshark Den",
+   "tags": [
+    "kitshark",
+    "kitshark adventure",
+    "adventure",
+    "voe adventure",
+    "kitshark adventure eternity's garden",
+    "castora",
+    "eternity's garden"
+   ],
+   "note": "Kitshark adventure starts NE of Kitshark Den POI (ProjektDyad Eternity's Garden Mastery)."
+  },
+  {
+   "chat_link": "[&BKcPAAA=]",
+   "map": "Shipwreck Strand",
+   "name": "Soaring Copse",
+   "tags": [
+    "soaring copse",
+    "jumping puzzle",
+    "jp",
+    "voe jumping puzzle",
+    "castora",
+    "shipwreck strand"
+   ],
+   "note": "Soaring Copse is a Shipwreck Strand jumping puzzle (wiki 'Booter's Path page, Jumping puzzles list)."
+  },
+  {
+   "chat_link": "[&BLQPAAA=]",
+   "map": "Shipwreck Strand",
+   "name": "Inquest Supply Cavern",
+   "tags": [
+    "orb cavern",
+    "jumping puzzle",
+    "jp",
+    "voe jumping puzzle",
+    "castora",
+    "shipwreck strand"
+   ],
+   "note": "Orb Cavern jumping puzzle: head to Inquest Supply Cavern POI and take the underwater path (GuildJen Shipwreck Strand Achievements; wiki Orb Cavern — grotto beneath Riddled Cove, descend from underwater at the back of Inquest Supply Cavern)."
+  },
+  {
+   "chat_link": "[&BEgNAAA=]",
+   "map": "Dragon's End",
+   "name": "Sanctuary of Ione",
+   "tags": [
+    "trial of the elders",
+    "mini dungeon",
+    "mini-dungeon",
+    "eod mini dungeon",
+    "dragon's end"
+   ],
+   "note": "Trial of the Elders mini dungeon: entrance is the grate at Sanctuary of Ione POI (ProjektDyad End of Dragons Mini Dungeons; GuildJen Dragon's End Achievements). Tagged to the entrance POI itself — no source names a nearest waypoint, so none was invented."
+  },
+  {
+   "chat_link": "[&BCwQAAA=]",
+   "map": "Leyspring Hollows",
+   "name": "Primus Minor",
+   "tags": [
+    "serpent simulator",
+    "adventure",
+    "voe adventure",
+    "serpent simulator leyspring hollows",
+    "castora",
+    "leyspring hollows"
+   ],
+   "note": "Serpent Simulator adventure starts NE of Primus Minor POI, speak with Simulation Engineer Oruum (ProjektDyad Leyspring Hollows Mastery). Tagged to the POI itself — no source names a nearest waypoint."
+  },
+  {
+   "chat_link": "[&BMQDAAA=]",
+   "map": "Diessa Plateau",
+   "name": "Bloodcliff Waypoint",
+   "tags": [
+    "poultry",
+    "slab of poultry meat",
+    "poultry meat",
+    "poultry farm",
+    "chicken",
+    "crimson moa",
+    "moa",
+    "moa farm",
+    "red meat",
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "Poultry: wiki Slab of Poultry Meat note — hunt Crimson Moa NE of Village of Butcher's Block around Bloodcliff Waypoint, packs respawn quickly."
+  },
+  {
+   "chat_link": "[&BPIAAAA=]",
+   "map": "Queensdale",
+   "name": "Crossing Waypoint",
+   "tags": [
+    "golden moa",
+    "moa",
+    "poultry",
+    "slab of poultry meat",
+    "poultry meat",
+    "egg",
+    "red meat",
+    "brackish skale",
+    "skale",
+    "tiny scale",
+    "small scale",
+    "vial of weak blood",
+    "weak blood",
+    "bone chip",
+    "tiny claw",
+    "tiny fang"
+   ],
+   "note": "Mobs: GW2 forum (2015) — 'Go to Crossing Waypoint in Queensdale. There are a ton of Moa\\'s there.'; Hero of the People guide — Golden Moa west of Crossing, Brackish Skale south of Crossing. Wiki Golden Moa drops Egg, Slab of Poultry Meat, Tiny Claw."
+  },
+  {
+   "chat_link": "[&BH0CAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Watchful Waypoint",
+   "tags": [
+    "skelk",
+    "alpine skelk",
+    "vial of potent blood",
+    "potent blood",
+    "vial of powerful blood",
+    "powerful blood",
+    "large fang",
+    "vicious fang"
+   ],
+   "note": "Mobs: Almarsguides secondary skelk camp — closest waypoint Watchful Waypoint, usually contested, so Honor of the Waves / Slough of Despond are fallbacks. Higher-level skelk, better Vial of Powerful Blood chance."
+  },
+  {
+   "chat_link": "[&BBoCAAA=]",
+   "map": "Fireheart Rise",
+   "name": "Breaktooth's Waypoint",
+   "tags": [
+    "wolf",
+    "wolves",
+    "large claw",
+    "large fang",
+    "vicious claw",
+    "vicious fang"
+   ],
+   "note": "Mobs: Almarsguides Fireheart Rise Wolf Farming — port to Breaktooth's Waypoint, head NE to the wolf camp; Large Claw & Large Fang."
+  },
+  {
+   "chat_link": "[&BAIEAAA=]",
+   "map": "Gendarran Fields",
+   "name": "Bloodfields Waypoint",
+   "tags": [
+    "golden moa",
+    "moa",
+    "skelk scavenger",
+    "skelk",
+    "poultry",
+    "slab of poultry meat",
+    "vial of thin blood",
+    "thin blood",
+    "vial of blood",
+    "small fang"
+   ],
+   "note": "Mobs: wiki The Bloodfields foe list — Golden Moa, Skelk Scavenger at The Bloodfields; wiki Skelk Scavenger drops Small Fang, Vial of Blood, Vial of Thin Blood; Bloodfields Waypoint is the area waypoint."
+  },
+  {
+   "chat_link": "[&BJABAAA=]",
+   "map": "Gendarran Fields",
+   "name": "Northfields Waypoint",
+   "tags": [
+    "minotaur",
+    "minotaurs",
+    "vial of thin blood",
+    "thin blood",
+    "ridgeback skale",
+    "skale",
+    "small scale",
+    "large scale"
+   ],
+   "note": "Mobs: Almarsguides — Vial of Thin Blood in Gendarran Fields at Minotaurs; Hero of the People guide — Ridgeback Skale north of Northfields Waypoint."
+  },
+  {
+   "chat_link": "[&BFEBAAA=]",
+   "map": "Fields of Ruin",
+   "name": "Fallen Angels Garrison Waypoint",
+   "tags": [
+    "chicken",
+    "angry chicken",
+    "chickens",
+    "poultry"
+   ],
+   "note": "Mobs: wiki Chicken — farm chickens in Stronghold of Ebonhawke, SW part of city; attacking them spawns Angry Chickens. Cellofrag skyscale guide: provoke farm chickens near Fallen Angels Garrison Waypoint. NOTE: this is a chicken location / skyscale infusion spot, not a poultry-meat farm — Bloodcliff / Amnoon are the poultry farms."
+  },
+  {
+   "chat_link": "[&BHgCAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Arundon Waypoint",
+   "tags": [
+    "minotaur",
+    "minotaurs",
+    "vial of potent blood",
+    "potent blood",
+    "large bone",
+    "grawl"
+   ],
+   "note": "Mobs: Almarsguides — Minotaurs in Frostgorge Sound (Vial of Potent Blood); Hero of the People guide — Hoof / Minotaurs north of Arundon Waypoint, Frostgorge Sound."
+  },
+  {
+   "chat_link": "[&BPQAAAA=]",
+   "map": "Queensdale",
+   "name": "Vale Waypoint",
+   "tags": [
+    "bandit",
+    "bandits",
+    "vial of weak blood",
+    "weak blood",
+    "bone chip",
+    "tiny claw",
+    "rawhide leather",
+    "leather"
+   ],
+   "note": "Mobs: Hero of the People guide — Bandits NE of Vale Waypoint, Queensdale; Almarsguides Bandithaunt Caverns in Queensdale (levels 1-20)."
+  },
+  {
+   "chat_link": "[&BEUDAAA=]",
+   "map": "Queensdale",
+   "name": "Scaver Waypoint",
+   "tags": [
+    "tamini",
+    "centaur",
+    "hoof",
+    "vial of weak blood",
+    "weak blood",
+    "bone chip"
+   ],
+   "note": "Mobs: Hero of the People guide — Tamini mobs NE of Scaver Waypoint, Queensdale."
+  },
+  {
+   "chat_link": "[&BBMCAAA=]",
+   "map": "Fireheart Rise",
+   "name": "God's Hand",
+   "tags": [
+    "harpy",
+    "harpies",
+    "sharp talon",
+    "talon",
+    "venom sac"
+   ],
+   "note": "Mobs: Hero of the People guide — Harpies west of God's Hand POI, Fireheart Rise (Sharp Talon). God's Hand is a landmark POI in the dataset, tagged as-is."
+  },
+  {
+   "chat_link": "[&BKsJAAA=]",
+   "map": "Lake Doric",
+   "name": "Noran's Homestead",
+   "tags": [
+    "centaur",
+    "centaurs",
+    "thick leather",
+    "thick leather section",
+    "leather farm",
+    "leather"
+   ],
+   "note": "Mobs: Lake Doric leather farm — centaur-inhabited NE part of the map, mostly Thick Leather Sections (search source, 2022). Noran's Homestead is the named POI in that NE area — medium confidence, area-level, not a named waypoint in the source."
+  },
+  {
+   "chat_link": "[&BBkDAAA=]",
+   "map": "Cursed Shore",
+   "name": "Penitent Waypoint",
+   "tags": [
+    "map bonus",
+    "map bonus rewards",
+    "map bonus reward"
+   ],
+   "note": "Map Bonus Rewards suggested entry waypoint (central hub) — v1.9. Not a wiki-published start; the track rewards are for the whole map."
+  },
+  {
+   "chat_link": "[&BDQOAAA=]",
+   "map": "Amnytas",
+   "name": "Bastion of the Natural Waypoint",
+   "tags": [
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Rift Hunting entry waypoint (central / main entry) — v1.9. Rifts spawn randomly on the map; use Scan for Rift once there. Not a rift spawn point."
+  },
+  {
+   "chat_link": "[&BGYOAAA=]",
+   "map": "Inner Nayos",
+   "name": "Astral Ward Camp Waypoint",
+   "tags": [
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Rift Hunting entry waypoint (central / main entry) — v1.9. Rifts spawn randomly on the map; use Scan for Rift once there. Not a rift spawn point."
+  },
+  {
+   "chat_link": "[&BOkBAAA=]",
+   "map": "Iron Marches",
+   "name": "Brandwatch Encampment Waypoint",
+   "tags": [
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Rift Hunting entry waypoint (central / main entry) — v1.9. Rifts spawn randomly on the map; use Scan for Rift once there. Not a rift spawn point."
+  },
+  {
+   "chat_link": "[&BIEJAAA=]",
+   "map": "Bitterfrost Frontier",
+   "name": "Koda's Welcome Waypoint",
+   "tags": [
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Rift Hunting entry waypoint (central / main entry) — v1.9. Rifts spawn randomly on the map; use Scan for Rift once there. Not a rift spawn point."
+  },
+  {
+   "chat_link": "[&BEwBAAA=]",
+   "map": "Fields of Ruin",
+   "name": "Fangfury Watch Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild rush",
+    "chicken run",
+    "chicken run guild rush",
+    "guild rush fields of ruin"
+   ],
+   "note": "Chicken Run guild rush, Fields of Ruin — Fangfury Watch Waypoint is the wiki closest waypoint (Blackblade's Watch is closer but can be contested)."
+  },
+  {
+   "chat_link": "[&BNwGAAA=]",
+   "map": "Southsun Cove",
+   "name": "Kiel's Outpost Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild rush",
+    "crab scuttle",
+    "crab scuttle guild rush",
+    "guild rush southsun cove",
+    "guild challenge",
+    "southsun crab toss",
+    "southsun crab toss guild challenge",
+    "guild challenge southsun cove"
+   ],
+   "note": "Crab Scuttle guild rush + Southsun Crab Toss guild challenge, Southsun Cove — Kiel's Outpost Waypoint is the wiki closest waypoint for both."
+  },
+  {
+   "chat_link": "[&BKUAAAA=]",
+   "map": "Harathi Hinterlands",
+   "name": "Faun's Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild rush",
+    "ghost wolf run",
+    "ghost wolf run guild rush",
+    "guild rush harathi hinterlands"
+   ],
+   "note": "Ghost Wolf Run guild rush, Harathi Hinterlands — Faun's Waypoint is the wiki closest waypoint (Bonerattler Caverns)."
+  },
+  {
+   "chat_link": "[&BIACAAA=]",
+   "map": "Frostgorge Sound",
+   "name": "Twoloop Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild rush",
+    "quaggan paddle",
+    "quaggan paddle guild rush",
+    "guild rush frostgorge sound"
+   ],
+   "note": "Quaggan Paddle guild rush, Frostgorge Sound — Twoloop Waypoint is the wiki closest waypoint (Talabaroop Waves)."
+  },
+  {
+   "chat_link": "[&BF0CAAA=]",
+   "map": "Dredgehaunt Cliffs",
+   "name": "Hessdallen Kenning Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild rush",
+    "spider scurry",
+    "spider scurry guild rush",
+    "guild rush dredgehaunt cliffs"
+   ],
+   "note": "Spider Scurry guild rush, Dredgehaunt Cliffs — Hessdallen Kenning Waypoint is the wiki closest waypoint (Dostoev Sky Peak)."
+  },
+  {
+   "chat_link": "[&BPsBAAA=]",
+   "map": "Blazeridge Steppes",
+   "name": "Tumok's Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild challenge",
+    "blightwater shatterstrike",
+    "blightwater shatterstrike guild challenge",
+    "guild challenge blazeridge steppes"
+   ],
+   "note": "Blightwater Shatterstrike guild challenge, Blazeridge Steppes — Tumok's Waypoint is the wiki closest waypoint (Blightwater Basin)."
+  },
+  {
+   "chat_link": "[&BOoBAAA=]",
+   "map": "Iron Marches",
+   "name": "Viper's Run Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild challenge",
+    "save our supplies",
+    "save our supplies guild challenge",
+    "guild challenge iron marches"
+   ],
+   "note": "Save Our Supplies guild challenge, Iron Marches — Viper's Run Waypoint is the wiki closest waypoint (The Granite Front)."
+  },
+  {
+   "chat_link": "[&BEYEAAA=]",
+   "map": "Timberline Falls",
+   "name": "Stromkarl Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild challenge",
+    "scratch sentry defense",
+    "scratch sentry defense guild challenge",
+    "guild challenge timberline falls"
+   ],
+   "note": "Scratch Sentry Defense guild challenge, Timberline Falls — Stromkarl Waypoint is the wiki closest waypoint (Fionnghuala Scratch)."
+  },
+  {
+   "chat_link": "[&BP8GAAA=]",
+   "map": "Snowden Drifts",
+   "name": "Angvar's Trove Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild puzzle",
+    "angvar's trove",
+    "angvar's trove guild puzzle",
+    "guild puzzle snowden drifts"
+   ],
+   "note": "Angvar's Trove guild puzzle, Snowden Drifts — its own waypoint outside the entrance; code [&BP8GAAA=] per NeoGAF/wiki puzzle table, verified in dataset."
+  },
+  {
+   "chat_link": "[&BPgGAAA=]",
+   "map": "Plains of Ashford",
+   "name": "Langmar Estate Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild puzzle",
+    "langmar estate",
+    "langmar estate guild puzzle",
+    "guild puzzle plains of ashford"
+   ],
+   "note": "Langmar Estate guild puzzle, Plains of Ashford — its own waypoint outside the entrance; code [&BPgGAAA=] per NeoGAF/wiki puzzle table, verified in dataset."
+  },
+  {
+   "chat_link": "[&BPkGAAA=]",
+   "map": "Brisban Wildlands",
+   "name": "Proxemics Lab Waypoint",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild puzzle",
+    "proxemics lab",
+    "proxemics lab guild puzzle",
+    "guild puzzle brisban wildlands",
+    "tropic valley raceway",
+    "roller beetle race",
+    "mount race",
+    "tropic valley raceway brisban wildlands"
+   ],
+   "note": "Proxemics Lab guild puzzle, Brisban Wildlands — its own waypoint; code [&BPkGAAA=] per NeoGAF/wiki puzzle table. Also Tropic Valley Raceway roller beetle race — ArenaNet: 'begins near Proxemics Lab Waypoint'."
+  },
+  {
+   "chat_link": "[&BFwHAAA=]",
+   "map": "Lion's Arch",
+   "name": "Guild Initiative Headquarters",
+   "tags": [
+    "guild mission",
+    "guild missions",
+    "guild bounty",
+    "guild trek",
+    "guild missions lion's arch"
+   ],
+   "note": "Guild Initiative Headquarters, Lion's Arch — guild mission hub. Guild Bounty targets roam their maps (18 targets, no single waypoint) and Guild Trek has 186 random locations, so neither is tagged to a spawn waypoint; this is the starting/hub entry only."
+  },
+  {
+   "chat_link": "[&BJEKAAA=]",
+   "map": "Desert Highlands",
+   "name": "Brightwater Waypoint",
+   "tags": [
+    "mount race",
+    "race to the finish",
+    "race to the finish desert highlands",
+    "race to the finish desert highlands mount race",
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Race to the Finish: Desert Highlands — race around Brightwater Inlet; Brightwater Waypoint (Dulfy video starts at Brightwater Waypoint)."
+  },
+  {
+   "chat_link": "[&BHcKAAA=]",
+   "map": "The Desolation",
+   "name": "Sand Jackal Run Waypoint",
+   "tags": [
+    "mount race",
+    "race to the finish",
+    "race to the finish the desolation",
+    "race to the finish desolation mount race"
+   ],
+   "note": "Race to the Finish: The Desolation — Dulfy: 'The race starts at Sand Jackal Run waypoint'."
+  },
+  {
+   "chat_link": "[&BAkLAAA=]",
+   "map": "Domain of Istan",
+   "name": "Chalon Docks Waypoint",
+   "tags": [
+    "mount race",
+    "race to the finish",
+    "race to the finish domain of istan",
+    "race to the finish istan mount race"
+   ],
+   "note": "Race to the Finish: Domain of Istan — GuildJen/Dulfy: race at Corsair Flotilla, skimmer race to Issnur Bay; Chalon Docks Waypoint is the nearest named waypoint to Corsair Flotilla (medium confidence — no source names a waypoint outright)."
+  },
+  {
+   "chat_link": "[&BJsLAAA=]",
+   "map": "Mad King's Raceway",
+   "name": "Mad King's Raceway Waypoint",
+   "tags": [
+    "mount race",
+    "mad king's raceway",
+    "mad king raceway",
+    "mad kings raceway",
+    "halloween mount race",
+    "roller beetle race"
+   ],
+   "note": "Mad King's Raceway, Mad King's Realm (Halloween) — its own waypoint in the dataset; entry is via Lunatic Boatmaster teleport, raceway waypoint is the in-instance waypoint."
+  },
+  {
+   "chat_link": "[&BFMKAAA=]",
+   "map": "Elon Riverlands",
+   "name": "Augury's Shadow Waypoint",
+   "tags": [
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Rift Hunting rotating-set entry waypoint (central / main entry) — v1.9. Rifts spawn randomly; use Scan for Rift once there."
+  },
+  {
+   "chat_link": "[&BLsLAAA=]",
+   "map": "Thunderhead Peaks",
+   "name": "History's End Waypoint",
+   "tags": [
+    "rift",
+    "rifts",
+    "rift hunting",
+    "kryptis rift"
+   ],
+   "note": "Rift Hunting rotating-set entry waypoint (central / main entry) — v1.9. Rifts spawn randomly; use Scan for Rift once there."
+  },
+  {
+   "chat_link": "[&BNcGAAA=]",
+   "map": "Southsun Cove",
+   "name": "Camp Karka Waypoint",
+   "tags": [
+    "crab toss",
+    "crab toss southsun cove"
+   ],
+   "note": "Daily Activity — Crab Toss (wiki: Karlotta, north of Privateer's Moorage POI near Sawtooth Bay, Southsun Cove). Nearest waypoint derived from dataset coordinates: Privateer's Moorage [&BNYGAAA=] is 470 units from Camp Karka Waypoint, 527 from Pearl Islet Waypoint (close second). Medium-high confidence — straight-line distance, not a published 'closest waypoint' statement."
+  },
+  {
+   "chat_link": "[&BJADAAA=]",
+   "map": "Hoelbrak",
+   "name": "Hero's Compass Waypoint",
+   "tags": [
+    "keg brawl",
+    "keg brawl hoelbrak"
+   ],
+   "note": "Daily Activity — Keg Brawl (Lake Mourn, NW Hoelbrak; Brewer NPC in the NW corner). No published source names a nearest waypoint — Hero's Compass is the westernmost Hoelbrak waypoint in the dataset coordinates, so MEDIUM confidence, coordinate + NW-description derived."
+  }
+ ]
+}
